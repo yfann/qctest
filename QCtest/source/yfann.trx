@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="61518622-3714-42a5-ab94-ec2dbf01a8c2" name="yfann@YFANN-PC 2016-07-25 13:29:41" runUser="yfann-PC\yfann" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-07-25T13:29:41.9104673+08:00" queuing="2016-07-25T13:29:41.9104673+08:00" start="2016-07-25T13:29:01.9341808+08:00" finish="2016-07-25T13:29:57.4993589+08:00" />
+  <TestSettings name="default" id="41418e38-c3a1-48b5-848a-558f317cee30">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="yfann_YFANN-PC 2016-07-25 13_29_41" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f7f778fa-a605-4777-bfcf-23758f284d6e" testId="8d45dbd3-81f0-e76f-d0ef-0e98cef7f984" testName="MedicalAlertsTest_UsePatientWithoutMedicalAlertTest" computerName="YFANN-PC" duration="00:00:00.3740557" startTime="2016-07-25T13:29:01.9341808+08:00" endTime="2016-07-25T13:29:40.7934034+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7f778fa-a605-4777-bfcf-23758f284d6e">
+      <Output>
+        <StdOut>16122</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7111fdb-0b8a-46b1-a8ad-c5954e2d37fe" testId="f4ac765e-1921-4eb8-042e-83b0b3167687" testName="MedicalAlertsTest_UsePatientWithSingleMedicalAlertTest" computerName="YFANN-PC" duration="00:00:00.0256455" startTime="2016-07-25T13:29:40.8034040+08:00" endTime="2016-07-25T13:29:40.8294054+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7111fdb-0b8a-46b1-a8ad-c5954e2d37fe">
+      <Output>
+        <StdOut>16123</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ce8f0bb-24aa-4632-80f9-61f965a98bf5" testId="7c45b88a-3d61-9048-f5ae-b4555390c621" testName="MedicalAlertsTest_UsePatientWithMultipleMedicalAlertsTest" computerName="YFANN-PC" duration="00:00:00.0509029" startTime="2016-07-25T13:29:40.8304055+08:00" endTime="2016-07-25T13:29:40.8814084+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ce8f0bb-24aa-4632-80f9-61f965a98bf5">
+      <Output>
+        <StdOut>16124</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="456e0f81-0bd6-4265-be7c-8b6a230bfef0" testId="adb709ee-dddf-d856-c54e-10c2b1737462" testName="MedicalAlertsTest_MedicalAlertsWithEmptyReasonTest" computerName="YFANN-PC" duration="00:00:00.0186848" startTime="2016-07-25T13:29:40.8824085+08:00" endTime="2016-07-25T13:29:40.9014096+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="456e0f81-0bd6-4265-be7c-8b6a230bfef0">
+      <Output>
+        <StdOut>16125</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e93bc107-2621-4833-8f0d-2170032f3ed3" testId="7e8e7044-b48c-877c-6e6a-9f24254b9f1a" testName="MedicalAlertsTest_MedicalAlertsWithMaxLengthReasonTest" computerName="YFANN-PC" duration="00:00:00.0206245" startTime="2016-07-25T13:29:40.9024096+08:00" endTime="2016-07-25T13:29:40.9224108+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e93bc107-2621-4833-8f0d-2170032f3ed3">
+      <Output>
+        <StdOut>16126</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c5c5cbeb-087e-4eb0-9c8e-79bf1f3d5838" testId="6e6f6210-4916-eb1b-7030-f6f10c0e387d" testName="MedicalAlertsTest_PatientWithMaxNumberOfMedicalAlertsTest" computerName="YFANN-PC" duration="00:00:00.5869515" startTime="2016-07-25T13:29:40.9234108+08:00" endTime="2016-07-25T13:29:41.5104444+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5c5cbeb-087e-4eb0-9c8e-79bf1f3d5838">
+      <Output>
+        <StdOut>16127</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3f58467-70f3-4c02-941f-4cf55e7a3edf" testId="dbefdda1-b19f-f3a3-03e6-c580484703d6" testName="MedicalAlertsTest_PatientMedicalAlertsWithSpecialCharactersTest" computerName="YFANN-PC" duration="00:00:00.0337319" startTime="2016-07-25T13:29:41.5114445+08:00" endTime="2016-07-25T13:29:41.5464465+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3f58467-70f3-4c02-941f-4cf55e7a3edf">
+      <Output>
+        <StdOut>16128</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="455e80c7-f8a8-48eb-9760-6b70a9abbef8" testId="5b8849d6-ac3f-3395-518d-50f7c9d656af" testName="PatientPortraitTest_GetANormalPatientAvatarTest" computerName="YFANN-PC" duration="00:00:00.2579617" startTime="2016-07-25T13:29:41.5474465+08:00" endTime="2016-07-25T13:29:41.8064613+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="455e80c7-f8a8-48eb-9760-6b70a9abbef8">
+      <Output>
+        <StdOut>16111</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="126176c5-6c8b-43f0-9c0f-ff763b652ae4" testId="1254912d-01fc-b139-9ec4-6e2af006223c" testName="PatientPortraitTest_UsePatientIdWithZeroGUIDTest" computerName="YFANN-PC" duration="00:00:00.3177734" startTime="2016-07-25T13:29:41.8074614+08:00" endTime="2016-07-25T13:29:42.1254796+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="126176c5-6c8b-43f0-9c0f-ff763b652ae4">
+      <Output>
+        <StdOut>16203</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1a26e04-d359-41be-89c6-899d77cac406" testId="de9132aa-f691-bf44-bc60-9819da337f9d" testName="PatientPortraitTest_UsePatientIdWithBadFormatTest" computerName="YFANN-PC" duration="00:00:00.0715791" startTime="2016-07-25T13:29:42.1264796+08:00" endTime="2016-07-25T13:29:42.1984837+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1a26e04-d359-41be-89c6-899d77cac406">
+      <Output>
+        <StdOut>16114</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e6682aa-d9ad-40da-9699-e3ff60c12196" testId="0876dd7d-f7c8-a1aa-a1f1-64865a71c1e4" testName="PatientPortraitTest_UsePatientIdWhichIsNotExistTest" computerName="YFANN-PC" duration="00:00:00.0476070" startTime="2016-07-25T13:29:42.2044841+08:00" endTime="2016-07-25T13:29:42.2524868+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e6682aa-d9ad-40da-9699-e3ff60c12196">
+      <Output>
+        <StdOut>16112</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb5db0b5-663c-4536-a105-a6ab3261f3ad" testId="ad2ad6e8-3420-e70f-53ab-5fff1d2f1ecd" testName="PatientPortraitTest_UseABlankPatientIDTest" computerName="YFANN-PC" duration="00:00:00.0439225" startTime="2016-07-25T13:29:42.2534869+08:00" endTime="2016-07-25T13:29:42.2974894+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb5db0b5-663c-4536-a105-a6ab3261f3ad">
+      <Output>
+        <StdOut>16115</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3fff1f5-7998-4d3d-a1aa-6017f53fde91" testId="ac8d0098-b081-bc59-27b2-d1750545a1a5" testName="PatientPortraitTest_GetAnIllegalImageTest" computerName="YFANN-PC" duration="00:00:00.1619260" startTime="2016-07-25T13:29:42.2984895+08:00" endTime="2016-07-25T13:29:42.4604987+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3fff1f5-7998-4d3d-a1aa-6017f53fde91">
+      <Output>
+        <StdOut>16204</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f12864b8-71ac-4a44-b0d8-a50c80728092" testId="f537f9ad-6209-e569-e180-def8617ed54f" testName="AllOfficesTest_GetAllAvailableOfficesTest" computerName="YFANN-PC" duration="00:00:00.4217913" startTime="2016-07-25T13:29:42.4614988+08:00" endTime="2016-07-25T13:29:42.8845230+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f12864b8-71ac-4a44-b0d8-a50c80728092">
+      <Output>
+        <StdOut>16130</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="691a84e7-533f-46c3-90fb-b01b0da8a5fa" testId="e829463e-1ab1-7fe5-a1f6-56b8dd6bb8b6" testName="AllOfficesTest_OfficeInfoWithInvalidValue" computerName="YFANN-PC" duration="00:00:00.0836596" startTime="2016-07-25T13:29:42.8855230+08:00" endTime="2016-07-25T13:29:42.9695278+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="691a84e7-533f-46c3-90fb-b01b0da8a5fa">
+      <Output>
+        <StdOut>16215</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="657d8c3f-9a2a-4cd9-a036-8fe77295e731" testId="5c054ba2-4888-4dcc-fc4f-d681d4a94c1a" testName="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForFutureDate0Appts" computerName="YFANN-PC" duration="00:00:00.1009719" startTime="2016-07-25T13:29:42.9705279+08:00" endTime="2016-07-25T13:29:43.0725337+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="657d8c3f-9a2a-4cd9-a036-8fe77295e731">
+      <Output>
+        <StdOut>16211</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e529d7a2-b3ec-4ee7-b498-20eae31c6676" testId="b6923d89-2dae-273f-5ec9-88c9c3e5f221" testName="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForFutureDateMixedApptsAndYYYYMMDD" computerName="YFANN-PC" duration="00:00:00.0568884" startTime="2016-07-25T13:29:43.0725337+08:00" endTime="2016-07-25T13:29:43.1305371+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e529d7a2-b3ec-4ee7-b498-20eae31c6676">
+      <Output>
+        <StdOut>16212</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5406736c-8c78-4a38-b779-911ebbd6e850" testId="44131544-0e27-dc01-6e0f-2200b0103c83" testName="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForPastDate1Appts" computerName="YFANN-PC" duration="00:00:00.0154075" startTime="2016-07-25T13:29:43.1315371+08:00" endTime="2016-07-25T13:29:43.1465380+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5406736c-8c78-4a38-b779-911ebbd6e850">
+      <Output>
+        <StdOut>16220</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="479c28ff-1ef9-48b5-b2cb-9e815748338b" testId="1fbaabf0-56c1-8501-6cfc-80fb18983f0f" testName="ApptsByOfficeAndDate_UseValidOfficeIDAndBlankDateMixedAppts" computerName="YFANN-PC" duration="00:00:00.0487688" startTime="2016-07-25T13:29:43.1475380+08:00" endTime="2016-07-25T13:29:43.1965408+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="479c28ff-1ef9-48b5-b2cb-9e815748338b">
+      <Output>
+        <StdOut>16218</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9daf9cf2-890b-4f62-ac6e-12ccad3e03b0" testId="94761bef-fad9-d7b0-88fa-42330ffd9ac3" testName="ApptsByOfficeAndDate_UserValidOfficeIDAndValideDateMMDDYYYY" computerName="YFANN-PC" duration="00:00:00.0341038" startTime="2016-07-25T13:29:43.1975409+08:00" endTime="2016-07-25T13:29:43.2315428+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9daf9cf2-890b-4f62-ac6e-12ccad3e03b0">
+      <Output>
+        <StdOut>16221</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46ca17ee-cd3c-4209-914f-1c063049523e" testId="8dd8fb8e-2efc-db2c-3e65-b8079af9d132" testName="ApptsByOfficeAndDate_UserValidOfficeIDAndBadFormatDateMMDDYYYY" computerName="YFANN-PC" duration="00:00:00.0203622" startTime="2016-07-25T13:29:43.2325429+08:00" endTime="2016-07-25T13:29:43.2535441+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46ca17ee-cd3c-4209-914f-1c063049523e">
+      <Output>
+        <StdOut>16214</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec528859-0b8a-4534-b56d-1f4453723b19" testId="3d94caec-eb9e-7dc7-9928-fccec8e70b6a" testName="ApptsByOfficeAndDate_UserBadFormatOfficeIDAndValidDate" computerName="YFANN-PC" duration="00:00:00.0336380" startTime="2016-07-25T13:29:43.2545442+08:00" endTime="2016-07-25T13:29:43.2885461+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec528859-0b8a-4534-b56d-1f4453723b19">
+      <Output>
+        <StdOut>16216</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5d06df1-0801-493f-8f5c-b968509a3985" testId="23862ebb-2d34-5be5-ca81-1ef354ea553b" testName="ApptsByOfficeAndDate_UserBlankOfficeIDAndValidDate" computerName="YFANN-PC" duration="00:00:00.0235597" startTime="2016-07-25T13:29:43.2895462+08:00" endTime="2016-07-25T13:29:43.3125475+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5d06df1-0801-493f-8f5c-b968509a3985">
+      <Output>
+        <StdOut>16217</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5649d13e-87e7-4d37-918c-30ea4c4770cc" testId="4e6f7591-593f-7035-b0e4-40153e04faf6" testName="ApptsByOfficeAndDate_UserNonExistentOfficeIDAndValidDate" computerName="YFANN-PC" duration="00:00:00.0343000" startTime="2016-07-25T13:29:43.3135475+08:00" endTime="2016-07-25T13:29:43.3485495+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5649d13e-87e7-4d37-918c-30ea4c4770cc">
+      <Output>
+        <StdOut>16213</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d42d1203-8774-4694-a059-f75fc021dfb9" testId="92440d00-c650-c1bc-fb3b-bfd29a366599" testName="PatientTypesTest_GetAllPatientTypes" computerName="YFANN-PC" duration="00:00:00.0187762" startTime="2016-07-25T13:29:43.3495496+08:00" endTime="2016-07-25T13:29:43.3685507+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d42d1203-8774-4694-a059-f75fc021dfb9">
+      <Output>
+        <StdOut>16416</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="517a2d9d-b8db-4426-a6b4-06b4904569ce" testId="a9bf7a82-d54e-3d31-02b7-624fe79223fb" testName="MappedAppointmentTreatmentsTest_GetAllMappedApptTreatmentsTest" computerName="YFANN-PC" duration="00:00:00.0226092" startTime="2016-07-25T13:29:43.3695507+08:00" endTime="2016-07-25T13:29:43.3925520+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="517a2d9d-b8db-4426-a6b4-06b4904569ce">
+      <Output>
+        <StdOut>16417</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fce2aa96-0cfc-4a7a-9dab-9e45dfceb841" testId="e7dca5cb-39f3-be40-0c6b-f5daae59ae26" testName="OfficeDefaultTemplateTest_GetActiveOfficeTemplateTest" computerName="YFANN-PC" duration="00:00:00.0798025" startTime="2016-07-25T13:29:43.3935521+08:00" endTime="2016-07-25T13:29:43.4745567+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fce2aa96-0cfc-4a7a-9dab-9e45dfceb841">
+      <Output>
+        <StdOut>16425</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="271ac851-1ed9-4e6d-b64a-a37dc5f81c3d" testId="7bfd6824-c48f-a82e-76f2-d8e80a131172" testName="OfficeDefaultTemplateTest_GetInActiveOfficeTemplateTest" computerName="YFANN-PC" duration="00:00:00.0267536" startTime="2016-07-25T13:29:43.4755568+08:00" endTime="2016-07-25T13:29:43.5025583+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="271ac851-1ed9-4e6d-b64a-a37dc5f81c3d">
+      <Output>
+        <StdOut>16427</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="02e92a3b-6542-4544-8318-cb7834741f70" testId="3c1efbf4-8de1-e90e-beda-6dcbe23adaf4" testName="OfficeDefaultTemplateTest_OfficeIDGUIDDoesNotExistTest" computerName="YFANN-PC" duration="00:00:00.0102120" startTime="2016-07-25T13:29:43.5035584+08:00" endTime="2016-07-25T13:29:43.5135590+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02e92a3b-6542-4544-8318-cb7834741f70">
+      <Output>
+        <StdOut>16428</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1832208d-f6b5-4622-98e8-38daa1cff6d5" testId="707c3423-e8ac-4a95-8be0-a84942c99709" testName="OfficeDefaultTemplateTest_OfficeGUIDDoesIsMalformedTest" computerName="YFANN-PC" duration="00:00:00.0076209" startTime="2016-07-25T13:29:43.5145590+08:00" endTime="2016-07-25T13:29:43.5225595+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1832208d-f6b5-4622-98e8-38daa1cff6d5">
+      <Output>
+        <StdOut>16429</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ec595d0-a4e5-43c7-8bb6-27acfcf1e9be" testId="45e78744-ad1d-ea74-beef-1c46c84f2bbc" testName="OfficeDefaultTemplateTest_OfficeGUIDDoesIsMissingTest" computerName="YFANN-PC" duration="00:00:00.0109443" startTime="2016-07-25T13:29:43.5235595+08:00" endTime="2016-07-25T13:29:43.5345602+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ec595d0-a4e5-43c7-8bb6-27acfcf1e9be">
+      <Output>
+        <StdOut>16430</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1da8a12-49bb-4937-8fd6-3609b839e53c" testId="0f3f8e5c-9e03-db6a-34ee-c70da2fb19ef" testName="OfficeDefaultTemplateTest_OfficeGUIDIsNullTest" computerName="YFANN-PC" duration="00:00:00.0071147" startTime="2016-07-25T13:29:43.5355602+08:00" endTime="2016-07-25T13:29:43.5425606+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1da8a12-49bb-4937-8fd6-3609b839e53c">
+      <Output>
+        <StdOut>16431</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa8ca173-b93b-4bf7-8587-86e7804ccbcf" testId="872a24b4-6605-bb65-4e33-bcceee6553f2" testName="OfficeDefaultTemplateTest_NoOfficeIDParameterTest" computerName="YFANN-PC" duration="00:00:00.0029780" startTime="2016-07-25T13:29:43.5435607+08:00" endTime="2016-07-25T13:29:43.5465609+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa8ca173-b93b-4bf7-8587-86e7804ccbcf">
+      <Output>
+        <StdOut>16432</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="708b66f9-49a8-44ca-ac1b-e4952875ce58" testId="38d455d3-8cce-4dd0-28d7-f0f986ecd6a1" testName="ToothLocationCodesByOfficeID_OfficeIsUniversalNumberingSystemTest" computerName="YFANN-PC" duration="00:00:00.0336064" startTime="2016-07-25T13:29:43.5475609+08:00" endTime="2016-07-25T13:29:43.5855631+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="708b66f9-49a8-44ca-ac1b-e4952875ce58">
+      <Output>
+        <StdOut>16364</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07f8816b-8bd9-41b5-bae7-65cbaec11d53" testId="9d945478-c5d2-2f25-e4a9-c439bbfaebbb" testName="ToothLocationCodesByOfficeID_OfficeIsFDIWordDentalFederationNotationTest" computerName="YFANN-PC" duration="00:00:00.0164254" startTime="2016-07-25T13:29:43.5865631+08:00" endTime="2016-07-25T13:29:43.6035641+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07f8816b-8bd9-41b5-bae7-65cbaec11d53">
+      <Output>
+        <StdOut>16365</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8df6bfd8-f28b-4c39-a1e5-f30cd3d6fc91" testId="04f7a88f-5894-edee-c736-86cf557a48d3" testName="ToothLocationCodesByOfficeID_NonExistentOfficeIDTest" computerName="YFANN-PC" duration="00:00:00.0086641" startTime="2016-07-25T13:29:43.6045642+08:00" endTime="2016-07-25T13:29:43.6135647+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8df6bfd8-f28b-4c39-a1e5-f30cd3d6fc91">
+      <Output>
+        <StdOut>16412</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d6c3d11-006c-47e4-bd4e-a2fae1233e7f" testId="bc015700-b626-b53e-ed65-3eb823aadd79" testName="ToothLocationCodesByOfficeID_BadFormatOfficeIDTest" computerName="YFANN-PC" duration="00:00:00.0070353" startTime="2016-07-25T13:29:43.6145647+08:00" endTime="2016-07-25T13:29:43.6215651+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d6c3d11-006c-47e4-bd4e-a2fae1233e7f">
+      <Output>
+        <StdOut>16413</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74e11f9e-5912-4729-8656-fb89267c1bf9" testId="293ae917-7f62-ec0c-aa81-0a8588338dd3" testName="ToothLocationCodesByOfficeID_BlankOfficeIDTest" computerName="YFANN-PC" duration="00:00:00.0067488" startTime="2016-07-25T13:29:43.6225652+08:00" endTime="2016-07-25T13:29:43.6295656+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74e11f9e-5912-4729-8656-fb89267c1bf9">
+      <Output>
+        <StdOut>16414</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d04278f5-22c5-4220-bede-43f224521671" testId="2e27f0e3-c20b-fd13-8aa4-14369fa56fbd" testName="ToothLocationCodesByOfficeID_NoOfficeIDParameterTest" computerName="YFANN-PC" duration="00:00:00.0028987" startTime="2016-07-25T13:29:43.6305657+08:00" endTime="2016-07-25T13:29:43.6335658+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d04278f5-22c5-4220-bede-43f224521671">
+      <Output>
+        <StdOut>16415</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0e83951-d4d2-4ee5-bb65-e03482a2e5fb" testId="46041b44-657a-6956-df8e-d7e506359bab" testName="ProceduresByApptIDTest_ZeroTodayApptsTest" computerName="YFANN-PC" duration="00:00:00.0396142" startTime="2016-07-25T13:29:43.6345659+08:00" endTime="2016-07-25T13:29:43.6745682+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0e83951-d4d2-4ee5-bb65-e03482a2e5fb">
+      <Output>
+        <StdOut>16271</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="20cd1f5b-6b71-44a9-bf1f-de86cfd20be4" testId="0ec1b1fd-b937-6eef-5652-4c60fc02378d" testName="ProceduresByApptIDTest_MultipleTodayApptsWithoutProceduresTest" computerName="YFANN-PC" duration="00:00:00.0664168" startTime="2016-07-25T13:29:43.6755682+08:00" endTime="2016-07-25T13:29:43.7425721+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20cd1f5b-6b71-44a9-bf1f-de86cfd20be4">
+      <Output>
+        <StdOut>16272</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="193f9e12-1659-4872-861f-338524a65244" testId="b55f5cc3-959b-dd3d-eb11-3a48375bc9c5" testName="ProceduresByApptIDTest_TodayApptsWithSingleOrMultipleProceduresTest" computerName="YFANN-PC" duration="00:00:00.1073945" startTime="2016-07-25T13:29:43.7435721+08:00" endTime="2016-07-25T13:29:43.8505782+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="193f9e12-1659-4872-861f-338524a65244">
+      <Output>
+        <StdOut>16273</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="08b5c5e2-e3f2-476c-aa68-63a8eff8d0f0" testId="804ca4e2-5f6c-e0af-6407-7691f6e2ce82" testName="ProceduresByApptIDTest_OfficeIDIsNonExistentTest" computerName="YFANN-PC" duration="00:00:00.0381867" startTime="2016-07-25T13:29:43.8515783+08:00" endTime="2016-07-25T13:29:43.8905805+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08b5c5e2-e3f2-476c-aa68-63a8eff8d0f0">
+      <Output>
+        <StdOut>16274</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26b83454-9275-422c-b4df-ed6f41444d8f" testId="338fce2b-71b1-f9bc-9733-919c37433fc9" testName="ProceduresByApptIDTest_OfficeIDIsBadFormatTest" computerName="YFANN-PC" duration="00:00:00.0295364" startTime="2016-07-25T13:29:43.8905805+08:00" endTime="2016-07-25T13:29:43.9205822+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26b83454-9275-422c-b4df-ed6f41444d8f">
+      <Output>
+        <StdOut>16275</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11480364-f522-4931-bae5-df63afc8517a" testId="987196cf-e420-b284-67d7-2860078dacdb" testName="ProceduresByApptIDTest_OfficeIDIsBlankTest" computerName="YFANN-PC" duration="00:00:00.0231661" startTime="2016-07-25T13:29:43.9215823+08:00" endTime="2016-07-25T13:29:43.9455837+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11480364-f522-4931-bae5-df63afc8517a">
+      <Output>
+        <StdOut>16276</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="824aa0c3-346b-4766-b7e2-eeda243b55ee" testId="361ed9bf-d8e7-eb4d-562f-397c03ba3596" testName="US33295_01_AppointmentLiteProviderInformationTest_Positive_ProviderIsDoctor" computerName="YFANN-PC" duration="00:00:00.2070515" startTime="2016-07-25T13:29:43.9455837+08:00" endTime="2016-07-25T13:29:44.1535956+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="824aa0c3-346b-4766-b7e2-eeda243b55ee">
+      <Output>
+        <StdOut>16347</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c649011-f8a2-4508-ba56-841eb9a2121e" testId="6772d379-1254-fb53-3229-4a8e582d4542" testName="US33295_02_AppointmentLiteProviderInformationTest_Positive_ProviderIsDoctorAndHygienist" computerName="YFANN-PC" duration="00:00:00.0567094" startTime="2016-07-25T13:29:44.1545956+08:00" endTime="2016-07-25T13:29:44.2115989+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c649011-f8a2-4508-ba56-841eb9a2121e">
+      <Output>
+        <StdOut>16354</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31a9331c-ca5f-4f6d-9432-ceae76ba3dde" testId="34a1571c-97ba-6dd4-df7a-de2fb9edbde6" testName="US33295_03_AppointmentLiteProviderInformationTest_Positive_ProviderIsHygienist" computerName="YFANN-PC" duration="00:00:00.0562301" startTime="2016-07-25T13:29:44.2125989+08:00" endTime="2016-07-25T13:29:44.2696022+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31a9331c-ca5f-4f6d-9432-ceae76ba3dde">
+      <Output>
+        <StdOut>16348</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f32be0a5-e7c4-4575-b787-8c8da5efeabd" testId="488abe46-6ecb-c9aa-eb9a-d1e0e57ae149" testName="US33295_04_AppointmentLiteProviderInformationTest_Positive_NoProcedure" computerName="YFANN-PC" duration="00:00:00.0560034" startTime="2016-07-25T13:29:44.2706023+08:00" endTime="2016-07-25T13:29:44.3266055+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f32be0a5-e7c4-4575-b787-8c8da5efeabd">
+      <Output>
+        <StdOut>16352</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57946aba-efaf-4714-a490-3eb8674c8922" testId="da08ba39-d01e-c20b-c342-4dc114562b69" testName="US33295_05_AppointmentLiteProviderInformationTest_Positive_MultipleProcedures" computerName="YFANN-PC" duration="00:00:00.1622376" startTime="2016-07-25T13:29:44.3276055+08:00" endTime="2016-07-25T13:29:44.4896148+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57946aba-efaf-4714-a490-3eb8674c8922">
+      <Output>
+        <StdOut>16353</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e86e0638-648d-42d1-9476-ce30bd3f0601" testId="8b03cbf1-ef6e-f7ab-c8d8-73b3bbe941e4" testName="US33295_06_AppointmentLiteProviderInformationTest_Positive_NoFeeChangeNotes" computerName="YFANN-PC" duration="00:00:00.0709908" startTime="2016-07-25T13:29:44.4906149+08:00" endTime="2016-07-25T13:29:44.5626190+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e86e0638-648d-42d1-9476-ce30bd3f0601">
+      <Output>
+        <StdOut>16423</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0583fe88-5598-414a-89b2-9619ef86bfed" testId="8bd7adb8-aafb-3e22-fc56-4a3b83a5feb0" testName="US33295_07_AppointmentLiteProviderInformationTest_Positive_MultipleNotesLog" computerName="YFANN-PC" duration="00:00:00.0842407" startTime="2016-07-25T13:29:44.5626190+08:00" endTime="2016-07-25T13:29:44.6476238+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0583fe88-5598-414a-89b2-9619ef86bfed">
+      <Output>
+        <StdOut>16424</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8c92847-f6f4-4ec7-bf82-707ef340cd48" testId="25782c8f-085f-3e94-3345-29fd83aa20a8" testName="US33295_08_AppointmentLiteProviderInformationTest_Negative_NonExistentApptId" computerName="YFANN-PC" duration="00:00:00.0555956" startTime="2016-07-25T13:29:44.6486239+08:00" endTime="2016-07-25T13:29:44.7046271+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8c92847-f6f4-4ec7-bf82-707ef340cd48">
+      <Output>
+        <StdOut>16349</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12b236b1-eb91-431a-a755-3588798678d0" testId="a4c6d7f0-9ba8-572c-fb60-06ba3761e817" testName="US33295_09_AppointmentLiteProviderInformationTest_Negative_BadFormatApptId" computerName="YFANN-PC" duration="00:00:00.0417275" startTime="2016-07-25T13:29:44.7056271+08:00" endTime="2016-07-25T13:29:44.7476296+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12b236b1-eb91-431a-a755-3588798678d0">
+      <Output>
+        <StdOut>16350</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="492ba9d4-0321-49d2-86ca-7c5e60fb9a6a" testId="3314ec9c-72e7-6da7-1a09-1b5bbe85a6ac" testName="US33295_10_AppointmentLiteProviderInformationTest_Negative_BlankApptId" computerName="YFANN-PC" duration="00:00:00.0603718" startTime="2016-07-25T13:29:44.7486296+08:00" endTime="2016-07-25T13:29:44.8086330+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="492ba9d4-0321-49d2-86ca-7c5e60fb9a6a">
+      <Output>
+        <StdOut>16351</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="553ec901-51a6-4a27-b408-f31a128c5ff6" testId="8239410f-ea1f-abb2-190c-fbf8bac8b3e8" testName="FindPatientsTest" computerName="YFANN-PC" duration="00:00:00.8849115" startTime="2016-07-25T13:29:44.8096331+08:00" endTime="2016-07-25T13:29:45.6956838+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="553ec901-51a6-4a27-b408-f31a128c5ff6" />
+    <UnitTestResult executionId="649ab3d1-b21a-4508-b42b-745f11fef2a3" testId="38fd6c04-28b9-6ccc-ec94-527f594da22e" testName="RebookAppointmentTest" computerName="YFANN-PC" duration="00:00:00.4335332" startTime="2016-07-25T13:29:45.6966838+08:00" endTime="2016-07-25T13:29:46.1307087+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="649ab3d1-b21a-4508-b42b-745f11fef2a3" />
+    <UnitTestResult executionId="1deb1919-0926-435b-af91-dba1d74aa74a" testId="a9a77cd5-3bf2-ffd8-6b55-1fe9cd15fa82" testName="LookupAddressTest" computerName="YFANN-PC" duration="00:00:03.2857424" startTime="2016-07-25T13:29:46.1317087+08:00" endTime="2016-07-25T13:29:49.4178967+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1deb1919-0926-435b-af91-dba1d74aa74a" />
+    <UnitTestResult executionId="88c48b08-05bf-4859-98bf-05ad6512bdfd" testId="84ea08a1-edc3-db73-9858-5d1f8941d09b" testName="ReminderTest" computerName="YFANN-PC" duration="00:00:00.4237135" startTime="2016-07-25T13:29:49.4218969+08:00" endTime="2016-07-25T13:29:49.8459212+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88c48b08-05bf-4859-98bf-05ad6512bdfd" />
+    <UnitTestResult executionId="40edff08-0024-43af-bba6-41b4e38c01bc" testId="d47c326d-4f3d-0e4d-f746-24392cf11f97" testName="RegistrationConfirmationTest" computerName="YFANN-PC" duration="00:00:00.0001702" startTime="2016-07-25T13:29:49.8469212+08:00" endTime="2016-07-25T13:29:49.8479213+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40edff08-0024-43af-bba6-41b4e38c01bc" />
+    <UnitTestResult executionId="73e79732-543c-400e-8913-a017f4221564" testId="dd2d90ad-8c26-f00c-abc6-8b2447260769" testName="PatientregistrationsTest" computerName="YFANN-PC" duration="00:00:00.0001654" startTime="2016-07-25T13:29:49.8479213+08:00" endTime="2016-07-25T13:29:49.8489213+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73e79732-543c-400e-8913-a017f4221564" />
+    <UnitTestResult executionId="c805bf11-c997-416a-bda8-dc0142ea5cae" testId="3630d141-54f3-dfdb-592d-acd71b2ad6be" testName="PatientmessagesTest" computerName="YFANN-PC" duration="00:00:00.1173789" startTime="2016-07-25T13:29:49.8499214+08:00" endTime="2016-07-25T13:29:49.9669281+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c805bf11-c997-416a-bda8-dc0142ea5cae" />
+    <UnitTestResult executionId="e64abe40-ee72-491a-bc3a-2fd67ccd9959" testId="b44f5766-8780-fa54-bdcf-8b901e40ce45" testName="ConfirmAppointmentTest" computerName="YFANN-PC" duration="00:00:00.4530179" startTime="2016-07-25T13:29:49.9689282+08:00" endTime="2016-07-25T13:29:50.4219541+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e64abe40-ee72-491a-bc3a-2fd67ccd9959" />
+    <UnitTestResult executionId="a5bfd5c2-8185-4c4d-b994-e176ef98537f" testId="281ca1da-007f-4547-dd94-650f2b1a2f28" testName="ContactpreferencesTest" computerName="YFANN-PC" duration="00:00:00.1930557" startTime="2016-07-25T13:29:50.4229542+08:00" endTime="2016-07-25T13:29:50.6159652+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5bfd5c2-8185-4c4d-b994-e176ef98537f" />
+    <UnitTestResult executionId="2327a923-f563-4daf-89cf-9313e627965b" testId="cacd0231-11cd-8337-519a-7545e7891cee" testName="PraticePriorityTest" computerName="YFANN-PC" duration="00:00:00.1254695" startTime="2016-07-25T13:29:50.6169653+08:00" endTime="2016-07-25T13:29:50.7429725+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2327a923-f563-4daf-89cf-9313e627965b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest.PraticePriorityTest() in D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\Tests\CallCenterServiceTest.cs:line 250
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e3bf483-6c5e-4bd6-8f74-4f6fedd26a55" testId="b7900cdd-b411-f50e-4fc0-d6a55a3d89f9" testName="AppointmentsCancelTest" computerName="YFANN-PC" duration="00:00:00.4260191" startTime="2016-07-25T13:29:50.7439725+08:00" endTime="2016-07-25T13:29:51.1709969+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e3bf483-6c5e-4bd6-8f74-4f6fedd26a55" />
+    <UnitTestResult executionId="31cdcb44-dea6-479d-8e4d-b7822d795449" testId="96b8ff42-e25e-b4fb-efaf-6e41e3ae7790" testName="AppointmentsReminderTest" computerName="YFANN-PC" duration="00:00:00.3784930" startTime="2016-07-25T13:29:51.1719970+08:00" endTime="2016-07-25T13:29:51.5510187+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31cdcb44-dea6-479d-8e4d-b7822d795449" />
+    <UnitTestResult executionId="06694840-da03-421b-98ce-fbd32c0b0199" testId="78e126ba-f849-df66-478e-3c511604f08a" testName="US33329_01_GetIndividualNoteTest_Positive_GetNoteWithoutNoteLog" computerName="YFANN-PC" duration="00:00:00.0339794" startTime="2016-07-25T13:29:51.5520187+08:00" endTime="2016-07-25T13:29:51.5870207+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06694840-da03-421b-98ce-fbd32c0b0199">
+      <Output>
+        <StdOut>16206</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="db0e7f55-6dd7-44b4-a1ea-ca4f2e7a5ffc" testId="c56a50f7-88aa-90ea-e052-0a91b4d2025b" testName="US33329_02_GetIndividualNoteTest_Positive_GetNoteWith2NoteLog" computerName="YFANN-PC" duration="00:00:00.0368516" startTime="2016-07-25T13:29:51.5870207+08:00" endTime="2016-07-25T13:29:51.6250229+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db0e7f55-6dd7-44b4-a1ea-ca4f2e7a5ffc">
+      <Output>
+        <StdOut>16207</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13fbc486-e471-489d-b145-0761ebd7d2d0" testId="73030d84-89e5-8868-99ea-889c78312847" testName="US33329_03_GetIndividualNoteTest_Negative_UseNonExistentNoteId" computerName="YFANN-PC" duration="00:00:00.0101423" startTime="2016-07-25T13:29:51.6260230+08:00" endTime="2016-07-25T13:29:51.6360235+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13fbc486-e471-489d-b145-0761ebd7d2d0">
+      <Output>
+        <StdOut>16210</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8fcb6542-b418-45f6-94c6-ee9519c14c3b" testId="947d06a8-e6d9-c8e9-5821-1cf36b737679" testName="US33329_04_GetIndividualNoteTest_Negative_UseBadFormatNoteId" computerName="YFANN-PC" duration="00:00:00.0085744" startTime="2016-07-25T13:29:51.6370236+08:00" endTime="2016-07-25T13:29:51.6460241+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fcb6542-b418-45f6-94c6-ee9519c14c3b">
+      <Output>
+        <StdOut>16209</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1c0e4be5-b9db-43c0-bd51-edfab420af9e" testId="f2f13d27-eda4-5384-8a81-ae82eb931df5" testName="US33329_05_GetIndividualNoteTest_Negative_UseBlankNoteId" computerName="YFANN-PC" duration="00:00:00.0035579" startTime="2016-07-25T13:29:51.6470242+08:00" endTime="2016-07-25T13:29:51.6510244+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c0e4be5-b9db-43c0-bd51-edfab420af9e">
+      <Output>
+        <StdOut>16208</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9249152-e0ad-4258-8bbb-2f754655aea5" testId="5db62c5f-8bba-ecf2-0592-d1f0f49371b3" testName="US33291_01_NextAppointmentTest_Positive_OnePastAppointmentInSystem" computerName="YFANN-PC" duration="00:00:00.1032446" startTime="2016-07-25T13:29:51.6520245+08:00" endTime="2016-07-25T13:29:51.7560304+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9249152-e0ad-4258-8bbb-2f754655aea5">
+      <Output>
+        <StdOut>16191</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="39b50d71-9c3e-46cc-8061-5e6dd3e950da" testId="5dff621a-e64e-9dfd-307d-6aff24b6c974" testName="US33291_02_NextAppointmentTest_Positive_MoreThan2PastAppointmentsAnd0FutureAppointment" computerName="YFANN-PC" duration="00:00:00.0567272" startTime="2016-07-25T13:29:51.7570305+08:00" endTime="2016-07-25T13:29:51.8140337+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39b50d71-9c3e-46cc-8061-5e6dd3e950da">
+      <Output>
+        <StdOut>16195</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26f32a0e-cb1d-4c4b-a09e-8499a73b3892" testId="5f2b6763-c0f2-3412-f8ac-48d0201481b7" testName="US33291_03_NextAppointmentTest_Positive_NoAppointmentsInSystem" computerName="YFANN-PC" duration="00:00:00.1235198" startTime="2016-07-25T13:29:51.8150338+08:00" endTime="2016-07-25T13:29:51.9390409+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26f32a0e-cb1d-4c4b-a09e-8499a73b3892">
+      <Output>
+        <StdOut>16190</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d799f8b-189c-4900-b72e-de843f29b612" testId="fb370eb8-8dc9-2663-5cb7-30bb05bb9cc1" testName="US33291_04_NextAppointmentTest_Positive_ComplexCondition" computerName="YFANN-PC" duration="00:00:00.0614054" startTime="2016-07-25T13:29:51.9400409+08:00" endTime="2016-07-25T13:29:52.0010444+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d799f8b-189c-4900-b72e-de843f29b612">
+      <Output>
+        <StdOut>16198</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="227f7aa4-5857-41a6-89b5-7628fa655021" testId="725c9c31-7e28-6a96-29b4-bcbffd29a626" testName="US33291_05_NextAppointmentTest_Negative_PatientGuidIsMalformed" computerName="YFANN-PC" duration="00:00:00.0092147" startTime="2016-07-25T13:29:52.0020445+08:00" endTime="2016-07-25T13:29:52.0120451+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="227f7aa4-5857-41a6-89b5-7628fa655021">
+      <Output>
+        <StdOut>16200</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c772f86a-b378-44a9-aec4-e739235d038a" testId="ff61890e-9b78-f48e-6aac-e3afd468c20b" testName="US33291_06_NextAppointmentTest_Negative_PatientGuidIsMissing" computerName="YFANN-PC" duration="00:00:00.0035362" startTime="2016-07-25T13:29:52.0130451+08:00" endTime="2016-07-25T13:29:52.0170453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c772f86a-b378-44a9-aec4-e739235d038a">
+      <Output>
+        <StdOut>16201</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f358687f-efdd-4e5f-b4d9-2f44bc066e58" testId="2f95b072-808e-d585-49d5-6d84cb8ab1d5" testName="US33291_07_NextAppointmentTest_Negative_PatientGuidIsNull" computerName="YFANN-PC" duration="00:00:00.0083713" startTime="2016-07-25T13:29:52.0170453+08:00" endTime="2016-07-25T13:29:52.0260459+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f358687f-efdd-4e5f-b4d9-2f44bc066e58">
+      <Output>
+        <StdOut>16202</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e4ce88d-9e76-48b8-8fb7-131689246842" testId="6f155fa6-efa2-43aa-4403-a1e8a542a4d5" testName="US33291_08_NextAppointmentTest_Negative_PatientGuidIsZero" computerName="YFANN-PC" duration="00:00:00.0181194" startTime="2016-07-25T13:29:52.0270459+08:00" endTime="2016-07-25T13:29:52.0450469+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e4ce88d-9e76-48b8-8fb7-131689246842">
+      <Output>
+        <StdOut>16199</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c902c81c-d31d-455b-8286-4a49285a7af5" testId="539006b5-551b-d3f8-63db-a8545b894621" testName="US33291_09_NextAppointmentTest_Negative_PatientGuidNotExistsInDatabase" computerName="YFANN-PC" duration="00:00:00.0174037" startTime="2016-07-25T13:29:52.0460470+08:00" endTime="2016-07-25T13:29:52.0640480+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c902c81c-d31d-455b-8286-4a49285a7af5">
+      <Output>
+        <StdOut>16194</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c0ceebd-67f9-490b-95a1-f110c555d995" testId="e029eb13-490b-45de-f824-dfb147c6022b" testName="US33292_01_NextAppointmentTest_Positive_ZeroPastAppointmentsAnd2FutureAppointments" computerName="YFANN-PC" duration="00:00:00.0612113" startTime="2016-07-25T13:29:52.0650481+08:00" endTime="2016-07-25T13:29:52.1270516+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c0ceebd-67f9-490b-95a1-f110c555d995">
+      <Output>
+        <StdOut>16196</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63855176-4426-498a-90d6-9c63e41f76c3" testId="4e991f67-f148-3b3e-484b-c392507f1f78" testName="US33292_02_NextAppointmentTest_Positive_1FutureAppointmentsInSystem" computerName="YFANN-PC" duration="00:00:00.0547954" startTime="2016-07-25T13:29:52.1280517+08:00" endTime="2016-07-25T13:29:52.1830548+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63855176-4426-498a-90d6-9c63e41f76c3">
+      <Output>
+        <StdOut>16192</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5081e0ce-f47c-4f07-b784-b08359188b14" testId="6aa112f5-170f-508c-fb08-34afcccbac8f" testName="US33292_03_NextAppointmentTest_Positive_1PastAnd1FutureAppointments" computerName="YFANN-PC" duration="00:00:00.0754039" startTime="2016-07-25T13:29:52.1840549+08:00" endTime="2016-07-25T13:29:52.2590592+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5081e0ce-f47c-4f07-b784-b08359188b14">
+      <Output>
+        <StdOut>16193</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e89990a-8bd4-4c86-98f0-df04c48db90d" testId="29e47600-9bdd-4499-8664-351572197b5f" testName="US33292_04_NextAppointmentTest_Positive_2PastAnd2FutureAppointments" computerName="YFANN-PC" duration="00:00:00.0810012" startTime="2016-07-25T13:29:52.2620594+08:00" endTime="2016-07-25T13:29:52.3430640+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e89990a-8bd4-4c86-98f0-df04c48db90d">
+      <Output>
+        <StdOut>16197</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed60b0c6-1d52-4a4f-b80a-18e8617fd8e7" testId="3d67a280-dd6f-a28c-092b-37c0a86fac66" testName="US33293_01_OfficeByIdTest_Positive_GetActiveOffice" computerName="YFANN-PC" duration="00:00:00.2001931" startTime="2016-07-25T13:29:52.3440640+08:00" endTime="2016-07-25T13:29:52.5460756+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed60b0c6-1d52-4a4f-b80a-18e8617fd8e7">
+      <Output>
+        <StdOut>16332</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9076183-6433-40e7-8c8e-9b3d84186f38" testId="8cf61dcf-1154-07b8-4cc0-36c98c46f274" testName="US33293_02_OfficeByIdTest_Positive_GetInactiveOffice" computerName="YFANN-PC" duration="00:00:00.0949719" startTime="2016-07-25T13:29:52.5460756+08:00" endTime="2016-07-25T13:29:52.6420811+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9076183-6433-40e7-8c8e-9b3d84186f38">
+      <Output>
+        <StdOut>16333</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3e2f574-ce1c-4c11-b2a4-6f52a642c1c8" testId="c6d59a57-3cb0-6793-1f0b-5d1cdbf321a2" testName="US33293_03_OfficeByIdTest_Negative_OfficeIdNotExist" computerName="YFANN-PC" duration="00:00:00.0256413" startTime="2016-07-25T13:29:52.6430811+08:00" endTime="2016-07-25T13:29:52.6690826+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3e2f574-ce1c-4c11-b2a4-6f52a642c1c8">
+      <Output>
+        <StdOut>16334</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4fe91174-be74-4c96-a1d8-245a527e0e4c" testId="4abd14dc-e289-90f6-6c69-da0513d070d1" testName="US33293_04_OfficeByIdTest_Negative_OfficeIdIsMalformed" computerName="YFANN-PC" duration="00:00:00.0089994" startTime="2016-07-25T13:29:52.6700827+08:00" endTime="2016-07-25T13:29:52.6790832+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fe91174-be74-4c96-a1d8-245a527e0e4c">
+      <Output>
+        <StdOut>16335</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7f822ff-c00f-47a0-be02-e8835b97ba04" testId="8b985c01-e7b8-09ae-de48-e166e3464028" testName="US33293_05_OfficeByIdTest_Negative_OfficeIdIsMissing" computerName="YFANN-PC" duration="00:00:00.0035869" startTime="2016-07-25T13:29:52.6800833+08:00" endTime="2016-07-25T13:29:52.6840835+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7f822ff-c00f-47a0-be02-e8835b97ba04">
+      <Output>
+        <StdOut>16336</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0157d2b7-4a61-4431-a2c6-fd6767a9b7cd" testId="53333c11-27be-5076-00cb-9d9a4238c7f5" testName="US33293_06_OfficeByIdTest_Negative_OfficeIdIsNull" computerName="YFANN-PC" duration="00:00:00.0079807" startTime="2016-07-25T13:29:52.6850835+08:00" endTime="2016-07-25T13:29:52.6930840+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0157d2b7-4a61-4431-a2c6-fd6767a9b7cd">
+      <Output>
+        <StdOut>16337</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0fc2369-5465-4f56-a777-ab12f9a76156" testId="f3af62c3-bbb5-67b0-5d78-ebdbbf245f6a" testName="US33293_07_OfficeByIdTest_Negative_OfficeIdIsZero" computerName="YFANN-PC" duration="00:00:00.0241852" startTime="2016-07-25T13:29:52.6940841+08:00" endTime="2016-07-25T13:29:52.7190855+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0fc2369-5465-4f56-a777-ab12f9a76156">
+      <Output>
+        <StdOut>16338</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc7f079c-928d-484d-8c2d-bbaeb8e5e311" testId="0372d2d7-26bf-edce-c440-ae1e01be2153" testName="TestFirstNameFrank" computerName="YFANN-PC" duration="00:00:00.0331871" startTime="2016-07-25T13:29:52.7200855+08:00" endTime="2016-07-25T13:29:52.7540875+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc7f079c-928d-484d-8c2d-bbaeb8e5e311" />
+    <UnitTestResult executionId="ac052a12-36f7-49a0-891a-56cd94da15a7" testId="aef3aea8-e50c-81c4-3280-3c8f204da3e0" testName="DisplayPatientAddressTest_InvalidPatientIDTest" computerName="YFANN-PC" duration="00:00:00.0162080" startTime="2016-07-25T13:29:52.7550876+08:00" endTime="2016-07-25T13:29:52.7720885+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac052a12-36f7-49a0-891a-56cd94da15a7">
+      <Output>
+        <StdOut>16121</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0ff91e1-ca21-46b8-8953-ae5e83cd26f0" testId="07561277-66b9-c2f5-bcf0-9db804065709" testName="DisplayPatientAddressTest_NonExistingPatientIDTest" computerName="YFANN-PC" duration="00:00:00.0103521" startTime="2016-07-25T13:29:52.7750887+08:00" endTime="2016-07-25T13:29:52.7860893+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0ff91e1-ca21-46b8-8953-ae5e83cd26f0">
+      <Output>
+        <StdOut>16120</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="672b264e-e202-4981-b2a9-8f691df75c39" testId="df0f9f5e-3637-e8a4-a972-75309d559f7e" testName="DisplayPatientAddressTest_ZeroPatientIDTest" computerName="YFANN-PC" duration="00:00:00.0466933" startTime="2016-07-25T13:29:52.7870894+08:00" endTime="2016-07-25T13:29:52.8340921+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="672b264e-e202-4981-b2a9-8f691df75c39">
+      <Output>
+        <StdOut>16119</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="82987dfe-97ad-441e-b36c-8101ef02beb6" testId="edda5e46-e861-ba69-66b9-6e98e6e4cb6f" testName="DisplayPatientAddressTest_PatientWithMultipleAddressTest" computerName="YFANN-PC" duration="00:00:00.0296231" startTime="2016-07-25T13:29:52.8350921+08:00" endTime="2016-07-25T13:29:52.8650938+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82987dfe-97ad-441e-b36c-8101ef02beb6">
+      <Output>
+        <StdOut>16117</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c085bf7e-695e-47c3-8dd0-6b4d64a97c16" testId="ddecd16d-2473-14a9-ee54-9df5e44a620d" testName="DisplayPatientAddressTest_PatientWithNoAddressTest" computerName="YFANN-PC" duration="00:00:00.0236421" startTime="2016-07-25T13:29:52.8660939+08:00" endTime="2016-07-25T13:29:52.8900953+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c085bf7e-695e-47c3-8dd0-6b4d64a97c16">
+      <Output>
+        <StdOut>16118</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58aec167-8e2b-4686-970f-4eb6f2cbbda2" testId="45c9bb83-9324-df23-ad56-222c4d97d826" testName="PatientSearchLastSeen_NoAppointmentsHasANullLastSeen" computerName="YFANN-PC" duration="00:00:00.3235083" startTime="2016-07-25T13:29:52.8910953+08:00" endTime="2016-07-25T13:29:53.4501273+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58aec167-8e2b-4686-970f-4eb6f2cbbda2" />
+    <UnitTestResult executionId="370ea5f2-5f6c-414e-85df-e5ebe1644fe1" testId="7448bfd6-0bb5-cf7f-dc7a-3334b1b062fa" testName="PatientSearchLastSeen_OneCompletedAppointmentHasAValidLastSeen" computerName="YFANN-PC" duration="00:00:00.1241121" startTime="2016-07-25T13:29:53.4511274+08:00" endTime="2016-07-25T13:29:53.5751345+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="370ea5f2-5f6c-414e-85df-e5ebe1644fe1" />
+    <UnitTestResult executionId="a0a38d1a-1506-47b4-ad80-7d4e42566ec0" testId="9135af81-5d46-000a-d929-391c9d8d7e11" testName="PatientSearchLastSeen_OnlyLastCompletedAppointmentShouldBeReturned" computerName="YFANN-PC" duration="00:00:00.1191273" startTime="2016-07-25T13:29:53.5761345+08:00" endTime="2016-07-25T13:29:53.6961414+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0a38d1a-1506-47b4-ad80-7d4e42566ec0" />
+    <UnitTestResult executionId="da0c6d8f-56b4-4f64-b3e6-2cc429bc9f4b" testId="deec353d-e127-24f1-77f7-4aeab8cc13a5" testName="ProceduresByApptIDTest_ZeroProcedureTest" computerName="YFANN-PC" duration="00:00:00.0128025" startTime="2016-07-25T13:29:53.6971414+08:00" endTime="2016-07-25T13:29:53.7651453+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da0c6d8f-56b4-4f64-b3e6-2cc429bc9f4b">
+      <Output>
+        <StdOut>16355</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b478f142-b741-4435-9105-156eaa45b532" testId="c915cbab-3be5-6014-b298-75188a710d67" testName="ProceduresByApptIDTest_MultipleProceduresTest" computerName="YFANN-PC" duration="00:00:00.0216973" startTime="2016-07-25T13:29:53.7661454+08:00" endTime="2016-07-25T13:29:53.7881466+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b478f142-b741-4435-9105-156eaa45b532">
+      <Output>
+        <StdOut>16356</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d8099da-8ddb-41c0-a06b-24267092869e" testId="ddb1d6be-1906-a64f-4231-5bcf0919e087" testName="ProceduresByApptIDTest_GroupProcedureTest" computerName="YFANN-PC" duration="00:00:00.0172947" startTime="2016-07-25T13:29:53.7891467+08:00" endTime="2016-07-25T13:29:53.8071477+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d8099da-8ddb-41c0-a06b-24267092869e">
+      <Output>
+        <StdOut>16357</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67048895-3ec7-446e-8516-40e6cb88c890" testId="20c5ec05-193f-bdee-7922-76b743bce2f6" testName="ProceduresByApptIDTest_NoFeeChangeNotesTest" computerName="YFANN-PC" duration="00:00:00.0127403" startTime="2016-07-25T13:29:53.8081478+08:00" endTime="2016-07-25T13:29:53.8211485+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67048895-3ec7-446e-8516-40e6cb88c890">
+      <Output>
+        <StdOut>16358</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8bfdb21d-cf2a-4df7-ba83-b20bcb3cac18" testId="3fe532d4-7331-5aed-822c-a3f09431b128" testName="ProceduresByApptIDTest_FeeChangeNoteWithMultipleNotesLogTest" computerName="YFANN-PC" duration="00:00:00.0151359" startTime="2016-07-25T13:29:53.8221486+08:00" endTime="2016-07-25T13:29:53.8371494+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bfdb21d-cf2a-4df7-ba83-b20bcb3cac18">
+      <Output>
+        <StdOut>16359</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest.ProceduresByApptIDTest_FeeChangeNoteWithMultipleNotesLogTest() in D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\Tests\ProceduresByApptIDTest.cs:line 143
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a75ebfe-bb13-4dc2-a854-adf1b1d52a5a" testId="424101e1-5bdb-89b5-8025-6bc75a2e34ea" testName="ProceduresByApptIDTest_NonExistentApptIDTest" computerName="YFANN-PC" duration="00:00:00.0092621" startTime="2016-07-25T13:29:53.8381495+08:00" endTime="2016-07-25T13:29:53.8481501+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a75ebfe-bb13-4dc2-a854-adf1b1d52a5a">
+      <Output>
+        <StdOut>16360</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf157931-394c-4122-9862-69fb5c588c43" testId="1545c7d4-7b9d-b357-4411-2767ef3c8610" testName="ProceduresByApptIDTest_BadFormatApptIDTest" computerName="YFANN-PC" duration="00:00:00.0083547" startTime="2016-07-25T13:29:53.8491501+08:00" endTime="2016-07-25T13:29:53.8571506+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf157931-394c-4122-9862-69fb5c588c43">
+      <Output>
+        <StdOut>16361</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e82a376-c54a-4c5a-ba86-3720addac775" testId="a8e61086-5a36-c384-ccba-2733009b0650" testName="ProceduresByApptIDTest_BlankApptIDTest" computerName="YFANN-PC" duration="00:00:00.0033354" startTime="2016-07-25T13:29:53.8581506+08:00" endTime="2016-07-25T13:29:53.8621509+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e82a376-c54a-4c5a-ba86-3720addac775">
+      <Output>
+        <StdOut>16362</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97881329-c9de-42e1-9c8d-831a0e7a23a5" testId="a7bf53f6-39e5-092c-3c0d-bad9d58123e7" testName="US33330_01_RetrieveNotesByAppointmentIdTest_Positive_NoApptNotes" computerName="YFANN-PC" duration="00:00:00.0532136" startTime="2016-07-25T13:29:53.8631509+08:00" endTime="2016-07-25T13:29:53.9171540+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97881329-c9de-42e1-9c8d-831a0e7a23a5">
+      <Output>
+        <StdOut>16418</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="680ee286-0cd8-4b6c-ba8b-198ad92b4cf8" testId="45e0d4df-74e5-1794-4336-4b2babe1f715" testName="US33330_02_RetrieveNotesByAppointmentIdTest_Positive_MultipleApptNotes" computerName="YFANN-PC" duration="00:00:00.0496840" startTime="2016-07-25T13:29:53.9181541+08:00" endTime="2016-07-25T13:29:53.9681569+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="680ee286-0cd8-4b6c-ba8b-198ad92b4cf8">
+      <Output>
+        <StdOut>16419</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4608bdb9-7941-4764-a528-11c822a7999c" testId="21cad8dc-8daf-1d66-9d82-c03cab4d1df8" testName="US33330_03_RetrieveNotesByAppointmentIdTest_Negative_NonExistentApptId" computerName="YFANN-PC" duration="00:00:00.0286110" startTime="2016-07-25T13:29:53.9691570+08:00" endTime="2016-07-25T13:29:53.9981587+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4608bdb9-7941-4764-a528-11c822a7999c">
+      <Output>
+        <StdOut>16420</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f766ddf9-f920-40d7-a505-21cde170b079" testId="cfbfaf8a-3ae8-6a13-d04b-f844aec139bc" testName="US33330_04_RetrieveNotesByAppointmentIdTest_Negative_BadFormatApptId" computerName="YFANN-PC" duration="00:00:00.0100025" startTime="2016-07-25T13:29:53.9991587+08:00" endTime="2016-07-25T13:29:54.0091593+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f766ddf9-f920-40d7-a505-21cde170b079">
+      <Output>
+        <StdOut>16421</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3542025-0a12-4751-ba11-c15d444ef542" testId="4ac3141a-bf86-f2c4-87c4-24daeeb05f82" testName="US33330_05_RetrieveNotesByAppointmentIdTest_Negative_BlankApptId" computerName="YFANN-PC" duration="00:00:00.0036590" startTime="2016-07-25T13:29:54.0101593+08:00" endTime="2016-07-25T13:29:54.0141596+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3542025-0a12-4751-ba11-c15d444ef542">
+      <Output>
+        <StdOut>16422</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MedicalAlertsTest_UsePatientWithoutMedicalAlertTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8d45dbd3-81f0-e76f-d0ef-0e98cef7f984">
+      <Execution id="f7f778fa-a605-4777-bfcf-23758f284d6e" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_UsePatientWithoutMedicalAlertTest" />
+    </UnitTest>
+    <UnitTest name="MedicalAlertsTest_UsePatientWithSingleMedicalAlertTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="f4ac765e-1921-4eb8-042e-83b0b3167687">
+      <Execution id="b7111fdb-0b8a-46b1-a8ad-c5954e2d37fe" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_UsePatientWithSingleMedicalAlertTest" />
+    </UnitTest>
+    <UnitTest name="MedicalAlertsTest_UsePatientWithMultipleMedicalAlertsTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="7c45b88a-3d61-9048-f5ae-b4555390c621">
+      <Execution id="7ce8f0bb-24aa-4632-80f9-61f965a98bf5" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_UsePatientWithMultipleMedicalAlertsTest" />
+    </UnitTest>
+    <UnitTest name="MedicalAlertsTest_MedicalAlertsWithEmptyReasonTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="adb709ee-dddf-d856-c54e-10c2b1737462">
+      <Execution id="456e0f81-0bd6-4265-be7c-8b6a230bfef0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_MedicalAlertsWithEmptyReasonTest" />
+    </UnitTest>
+    <UnitTest name="MedicalAlertsTest_MedicalAlertsWithMaxLengthReasonTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="7e8e7044-b48c-877c-6e6a-9f24254b9f1a">
+      <Execution id="e93bc107-2621-4833-8f0d-2170032f3ed3" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_MedicalAlertsWithMaxLengthReasonTest" />
+    </UnitTest>
+    <UnitTest name="MedicalAlertsTest_PatientWithMaxNumberOfMedicalAlertsTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="6e6f6210-4916-eb1b-7030-f6f10c0e387d">
+      <Execution id="c5c5cbeb-087e-4eb0-9c8e-79bf1f3d5838" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_PatientWithMaxNumberOfMedicalAlertsTest" />
+    </UnitTest>
+    <UnitTest name="MedicalAlertsTest_PatientMedicalAlertsWithSpecialCharactersTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="dbefdda1-b19f-f3a3-03e6-c580484703d6">
+      <Execution id="d3f58467-70f3-4c02-941f-4cf55e7a3edf" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MedicalAlertsTest" name="MedicalAlertsTest_PatientMedicalAlertsWithSpecialCharactersTest" />
+    </UnitTest>
+    <UnitTest name="PatientPortraitTest_GetANormalPatientAvatarTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="5b8849d6-ac3f-3395-518d-50f7c9d656af">
+      <Execution id="455e80c7-f8a8-48eb-9760-6b70a9abbef8" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientPortraitTest" name="PatientPortraitTest_GetANormalPatientAvatarTest" />
+    </UnitTest>
+    <UnitTest name="PatientPortraitTest_UsePatientIdWithZeroGUIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="1254912d-01fc-b139-9ec4-6e2af006223c">
+      <Execution id="126176c5-6c8b-43f0-9c0f-ff763b652ae4" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientPortraitTest" name="PatientPortraitTest_UsePatientIdWithZeroGUIDTest" />
+    </UnitTest>
+    <UnitTest name="PatientPortraitTest_UsePatientIdWithBadFormatTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="de9132aa-f691-bf44-bc60-9819da337f9d">
+      <Execution id="b1a26e04-d359-41be-89c6-899d77cac406" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientPortraitTest" name="PatientPortraitTest_UsePatientIdWithBadFormatTest" />
+    </UnitTest>
+    <UnitTest name="PatientPortraitTest_UsePatientIdWhichIsNotExistTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="0876dd7d-f7c8-a1aa-a1f1-64865a71c1e4">
+      <Execution id="0e6682aa-d9ad-40da-9699-e3ff60c12196" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientPortraitTest" name="PatientPortraitTest_UsePatientIdWhichIsNotExistTest" />
+    </UnitTest>
+    <UnitTest name="PatientPortraitTest_UseABlankPatientIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="ad2ad6e8-3420-e70f-53ab-5fff1d2f1ecd">
+      <Execution id="cb5db0b5-663c-4536-a105-a6ab3261f3ad" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientPortraitTest" name="PatientPortraitTest_UseABlankPatientIDTest" />
+    </UnitTest>
+    <UnitTest name="PatientPortraitTest_GetAnIllegalImageTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="ac8d0098-b081-bc59-27b2-d1750545a1a5">
+      <Execution id="b3fff1f5-7998-4d3d-a1aa-6017f53fde91" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientPortraitTest" name="PatientPortraitTest_GetAnIllegalImageTest" />
+    </UnitTest>
+    <UnitTest name="AllOfficesTest_GetAllAvailableOfficesTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="f537f9ad-6209-e569-e180-def8617ed54f">
+      <Execution id="f12864b8-71ac-4a44-b0d8-a50c80728092" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AllOfficesTest" name="AllOfficesTest_GetAllAvailableOfficesTest" />
+    </UnitTest>
+    <UnitTest name="AllOfficesTest_OfficeInfoWithInvalidValue" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="e829463e-1ab1-7fe5-a1f6-56b8dd6bb8b6">
+      <Execution id="691a84e7-533f-46c3-90fb-b01b0da8a5fa" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AllOfficesTest" name="AllOfficesTest_OfficeInfoWithInvalidValue" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForFutureDate0Appts" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="5c054ba2-4888-4dcc-fc4f-d681d4a94c1a">
+      <Execution id="657d8c3f-9a2a-4cd9-a036-8fe77295e731" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForFutureDate0Appts" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForFutureDateMixedApptsAndYYYYMMDD" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="b6923d89-2dae-273f-5ec9-88c9c3e5f221">
+      <Execution id="e529d7a2-b3ec-4ee7-b498-20eae31c6676" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForFutureDateMixedApptsAndYYYYMMDD" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForPastDate1Appts" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="44131544-0e27-dc01-6e0f-2200b0103c83">
+      <Execution id="5406736c-8c78-4a38-b779-911ebbd6e850" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_GetApptsByOfficeIDAndDateForPastDate1Appts" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_UseValidOfficeIDAndBlankDateMixedAppts" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="1fbaabf0-56c1-8501-6cfc-80fb18983f0f">
+      <Execution id="479c28ff-1ef9-48b5-b2cb-9e815748338b" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_UseValidOfficeIDAndBlankDateMixedAppts" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_UserValidOfficeIDAndValideDateMMDDYYYY" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="94761bef-fad9-d7b0-88fa-42330ffd9ac3">
+      <Execution id="9daf9cf2-890b-4f62-ac6e-12ccad3e03b0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_UserValidOfficeIDAndValideDateMMDDYYYY" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_UserValidOfficeIDAndBadFormatDateMMDDYYYY" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8dd8fb8e-2efc-db2c-3e65-b8079af9d132">
+      <Execution id="46ca17ee-cd3c-4209-914f-1c063049523e" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_UserValidOfficeIDAndBadFormatDateMMDDYYYY" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_UserBadFormatOfficeIDAndValidDate" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="3d94caec-eb9e-7dc7-9928-fccec8e70b6a">
+      <Execution id="ec528859-0b8a-4534-b56d-1f4453723b19" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_UserBadFormatOfficeIDAndValidDate" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_UserBlankOfficeIDAndValidDate" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="23862ebb-2d34-5be5-ca81-1ef354ea553b">
+      <Execution id="a5d06df1-0801-493f-8f5c-b968509a3985" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_UserBlankOfficeIDAndValidDate" />
+    </UnitTest>
+    <UnitTest name="ApptsByOfficeAndDate_UserNonExistentOfficeIDAndValidDate" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="4e6f7591-593f-7035-b0e4-40153e04faf6">
+      <Execution id="5649d13e-87e7-4d37-918c-30ea4c4770cc" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.AppointmentsByOfficeAndDate" name="ApptsByOfficeAndDate_UserNonExistentOfficeIDAndValidDate" />
+    </UnitTest>
+    <UnitTest name="PatientTypesTest_GetAllPatientTypes" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="92440d00-c650-c1bc-fb3b-bfd29a366599">
+      <Execution id="d42d1203-8774-4694-a059-f75fc021dfb9" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.PatientTypesTest" name="PatientTypesTest_GetAllPatientTypes" />
+    </UnitTest>
+    <UnitTest name="MappedAppointmentTreatmentsTest_GetAllMappedApptTreatmentsTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="a9bf7a82-d54e-3d31-02b7-624fe79223fb">
+      <Execution id="517a2d9d-b8db-4426-a6b4-06b4904569ce" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.MappedAppointmentTreatmentsTest" name="MappedAppointmentTreatmentsTest_GetAllMappedApptTreatmentsTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_GetActiveOfficeTemplateTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="e7dca5cb-39f3-be40-0c6b-f5daae59ae26">
+      <Execution id="fce2aa96-0cfc-4a7a-9dab-9e45dfceb841" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_GetActiveOfficeTemplateTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_GetInActiveOfficeTemplateTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="7bfd6824-c48f-a82e-76f2-d8e80a131172">
+      <Execution id="271ac851-1ed9-4e6d-b64a-a37dc5f81c3d" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_GetInActiveOfficeTemplateTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_OfficeIDGUIDDoesNotExistTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="3c1efbf4-8de1-e90e-beda-6dcbe23adaf4">
+      <Execution id="02e92a3b-6542-4544-8318-cb7834741f70" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_OfficeIDGUIDDoesNotExistTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_OfficeGUIDDoesIsMalformedTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="707c3423-e8ac-4a95-8be0-a84942c99709">
+      <Execution id="1832208d-f6b5-4622-98e8-38daa1cff6d5" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_OfficeGUIDDoesIsMalformedTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_OfficeGUIDDoesIsMissingTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="45e78744-ad1d-ea74-beef-1c46c84f2bbc">
+      <Execution id="1ec595d0-a4e5-43c7-8bb6-27acfcf1e9be" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_OfficeGUIDDoesIsMissingTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_OfficeGUIDIsNullTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="0f3f8e5c-9e03-db6a-34ee-c70da2fb19ef">
+      <Execution id="d1da8a12-49bb-4937-8fd6-3609b839e53c" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_OfficeGUIDIsNullTest" />
+    </UnitTest>
+    <UnitTest name="OfficeDefaultTemplateTest_NoOfficeIDParameterTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="872a24b4-6605-bb65-4e33-bcceee6553f2">
+      <Execution id="aa8ca173-b93b-4bf7-8587-86e7804ccbcf" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.OfficeDefaultTemplateTest" name="OfficeDefaultTemplateTest_NoOfficeIDParameterTest" />
+    </UnitTest>
+    <UnitTest name="ToothLocationCodesByOfficeID_OfficeIsUniversalNumberingSystemTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="38d455d3-8cce-4dd0-28d7-f0f986ecd6a1">
+      <Execution id="708b66f9-49a8-44ca-ac1b-e4952875ce58" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.ToothLocationCodesByOfficeIDTest" name="ToothLocationCodesByOfficeID_OfficeIsUniversalNumberingSystemTest" />
+    </UnitTest>
+    <UnitTest name="ToothLocationCodesByOfficeID_OfficeIsFDIWordDentalFederationNotationTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="9d945478-c5d2-2f25-e4a9-c439bbfaebbb">
+      <Execution id="07f8816b-8bd9-41b5-bae7-65cbaec11d53" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.ToothLocationCodesByOfficeIDTest" name="ToothLocationCodesByOfficeID_OfficeIsFDIWordDentalFederationNotationTest" />
+    </UnitTest>
+    <UnitTest name="ToothLocationCodesByOfficeID_NonExistentOfficeIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="04f7a88f-5894-edee-c736-86cf557a48d3">
+      <Execution id="8df6bfd8-f28b-4c39-a1e5-f30cd3d6fc91" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.ToothLocationCodesByOfficeIDTest" name="ToothLocationCodesByOfficeID_NonExistentOfficeIDTest" />
+    </UnitTest>
+    <UnitTest name="ToothLocationCodesByOfficeID_BadFormatOfficeIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="bc015700-b626-b53e-ed65-3eb823aadd79">
+      <Execution id="5d6c3d11-006c-47e4-bd4e-a2fae1233e7f" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.ToothLocationCodesByOfficeIDTest" name="ToothLocationCodesByOfficeID_BadFormatOfficeIDTest" />
+    </UnitTest>
+    <UnitTest name="ToothLocationCodesByOfficeID_BlankOfficeIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="293ae917-7f62-ec0c-aa81-0a8588338dd3">
+      <Execution id="74e11f9e-5912-4729-8656-fb89267c1bf9" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.ToothLocationCodesByOfficeIDTest" name="ToothLocationCodesByOfficeID_BlankOfficeIDTest" />
+    </UnitTest>
+    <UnitTest name="ToothLocationCodesByOfficeID_NoOfficeIDParameterTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="2e27f0e3-c20b-fd13-8aa4-14369fa56fbd">
+      <Execution id="d04278f5-22c5-4220-bede-43f224521671" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.ToothLocationCodesByOfficeIDTest" name="ToothLocationCodesByOfficeID_NoOfficeIDParameterTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_ZeroTodayApptsTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="46041b44-657a-6956-df8e-d7e506359bab">
+      <Execution id="e0e83951-d4d2-4ee5-bb65-e03482a2e5fb" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.TodayApptsByOfficeIDTest" name="ProceduresByApptIDTest_ZeroTodayApptsTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_MultipleTodayApptsWithoutProceduresTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="0ec1b1fd-b937-6eef-5652-4c60fc02378d">
+      <Execution id="20cd1f5b-6b71-44a9-bf1f-de86cfd20be4" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.TodayApptsByOfficeIDTest" name="ProceduresByApptIDTest_MultipleTodayApptsWithoutProceduresTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_TodayApptsWithSingleOrMultipleProceduresTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="b55f5cc3-959b-dd3d-eb11-3a48375bc9c5">
+      <Execution id="193f9e12-1659-4872-861f-338524a65244" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.TodayApptsByOfficeIDTest" name="ProceduresByApptIDTest_TodayApptsWithSingleOrMultipleProceduresTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_OfficeIDIsNonExistentTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="804ca4e2-5f6c-e0af-6407-7691f6e2ce82">
+      <Execution id="08b5c5e2-e3f2-476c-aa68-63a8eff8d0f0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.TodayApptsByOfficeIDTest" name="ProceduresByApptIDTest_OfficeIDIsNonExistentTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_OfficeIDIsBadFormatTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="338fce2b-71b1-f9bc-9733-919c37433fc9">
+      <Execution id="26b83454-9275-422c-b4df-ed6f41444d8f" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.TodayApptsByOfficeIDTest" name="ProceduresByApptIDTest_OfficeIDIsBadFormatTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_OfficeIDIsBlankTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="987196cf-e420-b284-67d7-2860078dacdb">
+      <Execution id="11480364-f522-4931-bae5-df63afc8517a" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.TodayApptsByOfficeIDTest" name="ProceduresByApptIDTest_OfficeIDIsBlankTest" />
+    </UnitTest>
+    <UnitTest name="US33295_01_AppointmentLiteProviderInformationTest_Positive_ProviderIsDoctor" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="361ed9bf-d8e7-eb4d-562f-397c03ba3596">
+      <Execution id="824aa0c3-346b-4766-b7e2-eeda243b55ee" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_01_AppointmentLiteProviderInformationTest_Positive_ProviderIsDoctor" />
+    </UnitTest>
+    <UnitTest name="US33295_02_AppointmentLiteProviderInformationTest_Positive_ProviderIsDoctorAndHygienist" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="6772d379-1254-fb53-3229-4a8e582d4542">
+      <Execution id="5c649011-f8a2-4508-ba56-841eb9a2121e" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_02_AppointmentLiteProviderInformationTest_Positive_ProviderIsDoctorAndHygienist" />
+    </UnitTest>
+    <UnitTest name="US33295_03_AppointmentLiteProviderInformationTest_Positive_ProviderIsHygienist" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="34a1571c-97ba-6dd4-df7a-de2fb9edbde6">
+      <Execution id="31a9331c-ca5f-4f6d-9432-ceae76ba3dde" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_03_AppointmentLiteProviderInformationTest_Positive_ProviderIsHygienist" />
+    </UnitTest>
+    <UnitTest name="US33295_04_AppointmentLiteProviderInformationTest_Positive_NoProcedure" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="488abe46-6ecb-c9aa-eb9a-d1e0e57ae149">
+      <Execution id="f32be0a5-e7c4-4575-b787-8c8da5efeabd" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_04_AppointmentLiteProviderInformationTest_Positive_NoProcedure" />
+    </UnitTest>
+    <UnitTest name="US33295_05_AppointmentLiteProviderInformationTest_Positive_MultipleProcedures" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="da08ba39-d01e-c20b-c342-4dc114562b69">
+      <Execution id="57946aba-efaf-4714-a490-3eb8674c8922" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_05_AppointmentLiteProviderInformationTest_Positive_MultipleProcedures" />
+    </UnitTest>
+    <UnitTest name="US33295_06_AppointmentLiteProviderInformationTest_Positive_NoFeeChangeNotes" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8b03cbf1-ef6e-f7ab-c8d8-73b3bbe941e4">
+      <Execution id="e86e0638-648d-42d1-9476-ce30bd3f0601" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_06_AppointmentLiteProviderInformationTest_Positive_NoFeeChangeNotes" />
+    </UnitTest>
+    <UnitTest name="US33295_07_AppointmentLiteProviderInformationTest_Positive_MultipleNotesLog" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8bd7adb8-aafb-3e22-fc56-4a3b83a5feb0">
+      <Execution id="0583fe88-5598-414a-89b2-9619ef86bfed" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_07_AppointmentLiteProviderInformationTest_Positive_MultipleNotesLog" />
+    </UnitTest>
+    <UnitTest name="US33295_08_AppointmentLiteProviderInformationTest_Negative_NonExistentApptId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="25782c8f-085f-3e94-3345-29fd83aa20a8">
+      <Execution id="b8c92847-f6f4-4ec7-bf82-707ef340cd48" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_08_AppointmentLiteProviderInformationTest_Negative_NonExistentApptId" />
+    </UnitTest>
+    <UnitTest name="US33295_09_AppointmentLiteProviderInformationTest_Negative_BadFormatApptId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="a4c6d7f0-9ba8-572c-fb60-06ba3761e817">
+      <Execution id="12b236b1-eb91-431a-a755-3588798678d0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_09_AppointmentLiteProviderInformationTest_Negative_BadFormatApptId" />
+    </UnitTest>
+    <UnitTest name="US33295_10_AppointmentLiteProviderInformationTest_Negative_BlankApptId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="3314ec9c-72e7-6da7-1a09-1b5bbe85a6ac">
+      <Execution id="492ba9d4-0321-49d2-86ca-7c5e60fb9a6a" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.AppointmentLiteProviderInformationTest" name="US33295_10_AppointmentLiteProviderInformationTest_Negative_BlankApptId" />
+    </UnitTest>
+    <UnitTest name="FindPatientsTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8239410f-ea1f-abb2-190c-fbf8bac8b3e8">
+      <Execution id="553ec901-51a6-4a27-b408-f31a128c5ff6" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="FindPatientsTest" />
+    </UnitTest>
+    <UnitTest name="RebookAppointmentTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="38fd6c04-28b9-6ccc-ec94-527f594da22e">
+      <Execution id="649ab3d1-b21a-4508-b42b-745f11fef2a3" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="RebookAppointmentTest" />
+    </UnitTest>
+    <UnitTest name="LookupAddressTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="a9a77cd5-3bf2-ffd8-6b55-1fe9cd15fa82">
+      <Execution id="1deb1919-0926-435b-af91-dba1d74aa74a" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="LookupAddressTest" />
+    </UnitTest>
+    <UnitTest name="ReminderTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="84ea08a1-edc3-db73-9858-5d1f8941d09b">
+      <Execution id="88c48b08-05bf-4859-98bf-05ad6512bdfd" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="ReminderTest" />
+    </UnitTest>
+    <UnitTest name="RegistrationConfirmationTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="d47c326d-4f3d-0e4d-f746-24392cf11f97">
+      <Execution id="40edff08-0024-43af-bba6-41b4e38c01bc" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="RegistrationConfirmationTest" />
+    </UnitTest>
+    <UnitTest name="PatientregistrationsTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="dd2d90ad-8c26-f00c-abc6-8b2447260769">
+      <Execution id="73e79732-543c-400e-8913-a017f4221564" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="PatientregistrationsTest" />
+    </UnitTest>
+    <UnitTest name="PatientmessagesTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="3630d141-54f3-dfdb-592d-acd71b2ad6be">
+      <Execution id="c805bf11-c997-416a-bda8-dc0142ea5cae" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="PatientmessagesTest" />
+    </UnitTest>
+    <UnitTest name="ConfirmAppointmentTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="b44f5766-8780-fa54-bdcf-8b901e40ce45">
+      <Execution id="e64abe40-ee72-491a-bc3a-2fd67ccd9959" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="ConfirmAppointmentTest" />
+    </UnitTest>
+    <UnitTest name="ContactpreferencesTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="281ca1da-007f-4547-dd94-650f2b1a2f28">
+      <Execution id="a5bfd5c2-8185-4c4d-b994-e176ef98537f" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="ContactpreferencesTest" />
+    </UnitTest>
+    <UnitTest name="PraticePriorityTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="cacd0231-11cd-8337-519a-7545e7891cee">
+      <Execution id="2327a923-f563-4daf-89cf-9313e627965b" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="PraticePriorityTest" />
+    </UnitTest>
+    <UnitTest name="AppointmentsCancelTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="b7900cdd-b411-f50e-4fc0-d6a55a3d89f9">
+      <Execution id="7e3bf483-6c5e-4bd6-8f74-4f6fedd26a55" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="AppointmentsCancelTest" />
+    </UnitTest>
+    <UnitTest name="AppointmentsReminderTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="96b8ff42-e25e-b4fb-efaf-6e41e3ae7790">
+      <Execution id="31cdcb44-dea6-479d-8e4d-b7822d795449" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.CallCenterServiceTest" name="AppointmentsReminderTest" />
+    </UnitTest>
+    <UnitTest name="US33329_01_GetIndividualNoteTest_Positive_GetNoteWithoutNoteLog" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="78e126ba-f849-df66-478e-3c511604f08a">
+      <Execution id="06694840-da03-421b-98ce-fbd32c0b0199" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.GetIndividualNoteTest" name="US33329_01_GetIndividualNoteTest_Positive_GetNoteWithoutNoteLog" />
+    </UnitTest>
+    <UnitTest name="US33329_02_GetIndividualNoteTest_Positive_GetNoteWith2NoteLog" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="c56a50f7-88aa-90ea-e052-0a91b4d2025b">
+      <Execution id="db0e7f55-6dd7-44b4-a1ea-ca4f2e7a5ffc" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.GetIndividualNoteTest" name="US33329_02_GetIndividualNoteTest_Positive_GetNoteWith2NoteLog" />
+    </UnitTest>
+    <UnitTest name="US33329_03_GetIndividualNoteTest_Negative_UseNonExistentNoteId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="73030d84-89e5-8868-99ea-889c78312847">
+      <Execution id="13fbc486-e471-489d-b145-0761ebd7d2d0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.GetIndividualNoteTest" name="US33329_03_GetIndividualNoteTest_Negative_UseNonExistentNoteId" />
+    </UnitTest>
+    <UnitTest name="US33329_04_GetIndividualNoteTest_Negative_UseBadFormatNoteId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="947d06a8-e6d9-c8e9-5821-1cf36b737679">
+      <Execution id="8fcb6542-b418-45f6-94c6-ee9519c14c3b" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.GetIndividualNoteTest" name="US33329_04_GetIndividualNoteTest_Negative_UseBadFormatNoteId" />
+    </UnitTest>
+    <UnitTest name="US33329_05_GetIndividualNoteTest_Negative_UseBlankNoteId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="f2f13d27-eda4-5384-8a81-ae82eb931df5">
+      <Execution id="1c0e4be5-b9db-43c0-bd51-edfab420af9e" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.GetIndividualNoteTest" name="US33329_05_GetIndividualNoteTest_Negative_UseBlankNoteId" />
+    </UnitTest>
+    <UnitTest name="US33291_01_NextAppointmentTest_Positive_OnePastAppointmentInSystem" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="5db62c5f-8bba-ecf2-0592-d1f0f49371b3">
+      <Execution id="c9249152-e0ad-4258-8bbb-2f754655aea5" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_01_NextAppointmentTest_Positive_OnePastAppointmentInSystem" />
+    </UnitTest>
+    <UnitTest name="US33291_02_NextAppointmentTest_Positive_MoreThan2PastAppointmentsAnd0FutureAppointment" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="5dff621a-e64e-9dfd-307d-6aff24b6c974">
+      <Execution id="39b50d71-9c3e-46cc-8061-5e6dd3e950da" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_02_NextAppointmentTest_Positive_MoreThan2PastAppointmentsAnd0FutureAppointment" />
+    </UnitTest>
+    <UnitTest name="US33291_03_NextAppointmentTest_Positive_NoAppointmentsInSystem" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="5f2b6763-c0f2-3412-f8ac-48d0201481b7">
+      <Execution id="26f32a0e-cb1d-4c4b-a09e-8499a73b3892" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_03_NextAppointmentTest_Positive_NoAppointmentsInSystem" />
+    </UnitTest>
+    <UnitTest name="US33291_04_NextAppointmentTest_Positive_ComplexCondition" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="fb370eb8-8dc9-2663-5cb7-30bb05bb9cc1">
+      <Execution id="4d799f8b-189c-4900-b72e-de843f29b612" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_04_NextAppointmentTest_Positive_ComplexCondition" />
+    </UnitTest>
+    <UnitTest name="US33291_05_NextAppointmentTest_Negative_PatientGuidIsMalformed" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="725c9c31-7e28-6a96-29b4-bcbffd29a626">
+      <Execution id="227f7aa4-5857-41a6-89b5-7628fa655021" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_05_NextAppointmentTest_Negative_PatientGuidIsMalformed" />
+    </UnitTest>
+    <UnitTest name="US33291_06_NextAppointmentTest_Negative_PatientGuidIsMissing" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="ff61890e-9b78-f48e-6aac-e3afd468c20b">
+      <Execution id="c772f86a-b378-44a9-aec4-e739235d038a" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_06_NextAppointmentTest_Negative_PatientGuidIsMissing" />
+    </UnitTest>
+    <UnitTest name="US33291_07_NextAppointmentTest_Negative_PatientGuidIsNull" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="2f95b072-808e-d585-49d5-6d84cb8ab1d5">
+      <Execution id="f358687f-efdd-4e5f-b4d9-2f44bc066e58" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_07_NextAppointmentTest_Negative_PatientGuidIsNull" />
+    </UnitTest>
+    <UnitTest name="US33291_08_NextAppointmentTest_Negative_PatientGuidIsZero" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="6f155fa6-efa2-43aa-4403-a1e8a542a4d5">
+      <Execution id="0e4ce88d-9e76-48b8-8fb7-131689246842" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_08_NextAppointmentTest_Negative_PatientGuidIsZero" />
+    </UnitTest>
+    <UnitTest name="US33291_09_NextAppointmentTest_Negative_PatientGuidNotExistsInDatabase" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="539006b5-551b-d3f8-63db-a8545b894621">
+      <Execution id="c902c81c-d31d-455b-8286-4a49285a7af5" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33291_09_NextAppointmentTest_Negative_PatientGuidNotExistsInDatabase" />
+    </UnitTest>
+    <UnitTest name="US33292_01_NextAppointmentTest_Positive_ZeroPastAppointmentsAnd2FutureAppointments" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="e029eb13-490b-45de-f824-dfb147c6022b">
+      <Execution id="5c0ceebd-67f9-490b-95a1-f110c555d995" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33292_01_NextAppointmentTest_Positive_ZeroPastAppointmentsAnd2FutureAppointments" />
+    </UnitTest>
+    <UnitTest name="US33292_02_NextAppointmentTest_Positive_1FutureAppointmentsInSystem" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="4e991f67-f148-3b3e-484b-c392507f1f78">
+      <Execution id="63855176-4426-498a-90d6-9c63e41f76c3" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33292_02_NextAppointmentTest_Positive_1FutureAppointmentsInSystem" />
+    </UnitTest>
+    <UnitTest name="US33292_03_NextAppointmentTest_Positive_1PastAnd1FutureAppointments" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="6aa112f5-170f-508c-fb08-34afcccbac8f">
+      <Execution id="5081e0ce-f47c-4f07-b784-b08359188b14" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33292_03_NextAppointmentTest_Positive_1PastAnd1FutureAppointments" />
+    </UnitTest>
+    <UnitTest name="US33292_04_NextAppointmentTest_Positive_2PastAnd2FutureAppointments" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="29e47600-9bdd-4499-8664-351572197b5f">
+      <Execution id="8e89990a-8bd4-4c86-98f0-df04c48db90d" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.NextAppointmentTest" name="US33292_04_NextAppointmentTest_Positive_2PastAnd2FutureAppointments" />
+    </UnitTest>
+    <UnitTest name="US33293_01_OfficeByIdTest_Positive_GetActiveOffice" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="3d67a280-dd6f-a28c-092b-37c0a86fac66">
+      <Execution id="ed60b0c6-1d52-4a4f-b80a-18e8617fd8e7" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_01_OfficeByIdTest_Positive_GetActiveOffice" />
+    </UnitTest>
+    <UnitTest name="US33293_02_OfficeByIdTest_Positive_GetInactiveOffice" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8cf61dcf-1154-07b8-4cc0-36c98c46f274">
+      <Execution id="a9076183-6433-40e7-8c8e-9b3d84186f38" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_02_OfficeByIdTest_Positive_GetInactiveOffice" />
+    </UnitTest>
+    <UnitTest name="US33293_03_OfficeByIdTest_Negative_OfficeIdNotExist" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="c6d59a57-3cb0-6793-1f0b-5d1cdbf321a2">
+      <Execution id="e3e2f574-ce1c-4c11-b2a4-6f52a642c1c8" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_03_OfficeByIdTest_Negative_OfficeIdNotExist" />
+    </UnitTest>
+    <UnitTest name="US33293_04_OfficeByIdTest_Negative_OfficeIdIsMalformed" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="4abd14dc-e289-90f6-6c69-da0513d070d1">
+      <Execution id="4fe91174-be74-4c96-a1d8-245a527e0e4c" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_04_OfficeByIdTest_Negative_OfficeIdIsMalformed" />
+    </UnitTest>
+    <UnitTest name="US33293_05_OfficeByIdTest_Negative_OfficeIdIsMissing" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="8b985c01-e7b8-09ae-de48-e166e3464028">
+      <Execution id="d7f822ff-c00f-47a0-be02-e8835b97ba04" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_05_OfficeByIdTest_Negative_OfficeIdIsMissing" />
+    </UnitTest>
+    <UnitTest name="US33293_06_OfficeByIdTest_Negative_OfficeIdIsNull" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="53333c11-27be-5076-00cb-9d9a4238c7f5">
+      <Execution id="0157d2b7-4a61-4431-a2c6-fd6767a9b7cd" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_06_OfficeByIdTest_Negative_OfficeIdIsNull" />
+    </UnitTest>
+    <UnitTest name="US33293_07_OfficeByIdTest_Negative_OfficeIdIsZero" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="f3af62c3-bbb5-67b0-5d78-ebdbbf245f6a">
+      <Execution id="d0fc2369-5465-4f56-a777-ab12f9a76156" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.OfficeByIdTest" name="US33293_07_OfficeByIdTest_Negative_OfficeIdIsZero" />
+    </UnitTest>
+    <UnitTest name="TestFirstNameFrank" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="0372d2d7-26bf-edce-c440-ae1e01be2153">
+      <Execution id="cc7f079c-928d-484d-8c2d-bbaeb8e5e311" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.PatientNameTest" name="TestFirstNameFrank" />
+    </UnitTest>
+    <UnitTest name="DisplayPatientAddressTest_InvalidPatientIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="aef3aea8-e50c-81c4-3280-3c8f204da3e0">
+      <Execution id="ac052a12-36f7-49a0-891a-56cd94da15a7" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.DisplayPatientAddressTest" name="DisplayPatientAddressTest_InvalidPatientIDTest" />
+    </UnitTest>
+    <UnitTest name="DisplayPatientAddressTest_NonExistingPatientIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="07561277-66b9-c2f5-bcf0-9db804065709">
+      <Execution id="e0ff91e1-ca21-46b8-8953-ae5e83cd26f0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.DisplayPatientAddressTest" name="DisplayPatientAddressTest_NonExistingPatientIDTest" />
+    </UnitTest>
+    <UnitTest name="DisplayPatientAddressTest_ZeroPatientIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="df0f9f5e-3637-e8a4-a972-75309d559f7e">
+      <Execution id="672b264e-e202-4981-b2a9-8f691df75c39" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.DisplayPatientAddressTest" name="DisplayPatientAddressTest_ZeroPatientIDTest" />
+    </UnitTest>
+    <UnitTest name="DisplayPatientAddressTest_PatientWithMultipleAddressTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="edda5e46-e861-ba69-66b9-6e98e6e4cb6f">
+      <Execution id="82987dfe-97ad-441e-b36c-8101ef02beb6" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.DisplayPatientAddressTest" name="DisplayPatientAddressTest_PatientWithMultipleAddressTest" />
+    </UnitTest>
+    <UnitTest name="DisplayPatientAddressTest_PatientWithNoAddressTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="ddecd16d-2473-14a9-ee54-9df5e44a620d">
+      <Execution id="c085bf7e-695e-47c3-8dd0-6b4d64a97c16" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.DisplayPatientAddressTest" name="DisplayPatientAddressTest_PatientWithNoAddressTest" />
+    </UnitTest>
+    <UnitTest name="PatientSearchLastSeen_NoAppointmentsHasANullLastSeen" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="45c9bb83-9324-df23-ad56-222c4d97d826">
+      <Execution id="58aec167-8e2b-4686-970f-4eb6f2cbbda2" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.PatientSearchLastSeenTest" name="PatientSearchLastSeen_NoAppointmentsHasANullLastSeen" />
+    </UnitTest>
+    <UnitTest name="PatientSearchLastSeen_OneCompletedAppointmentHasAValidLastSeen" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="7448bfd6-0bb5-cf7f-dc7a-3334b1b062fa">
+      <Execution id="370ea5f2-5f6c-414e-85df-e5ebe1644fe1" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.PatientSearchLastSeenTest" name="PatientSearchLastSeen_OneCompletedAppointmentHasAValidLastSeen" />
+    </UnitTest>
+    <UnitTest name="PatientSearchLastSeen_OnlyLastCompletedAppointmentShouldBeReturned" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="9135af81-5d46-000a-d929-391c9d8d7e11">
+      <Execution id="a0a38d1a-1506-47b4-ad80-7d4e42566ec0" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.PatientSearchLastSeenTest" name="PatientSearchLastSeen_OnlyLastCompletedAppointmentShouldBeReturned" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_ZeroProcedureTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="deec353d-e127-24f1-77f7-4aeab8cc13a5">
+      <Execution id="da0c6d8f-56b4-4f64-b3e6-2cc429bc9f4b" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_ZeroProcedureTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_MultipleProceduresTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="c915cbab-3be5-6014-b298-75188a710d67">
+      <Execution id="b478f142-b741-4435-9105-156eaa45b532" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_MultipleProceduresTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_GroupProcedureTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="ddb1d6be-1906-a64f-4231-5bcf0919e087">
+      <Execution id="0d8099da-8ddb-41c0-a06b-24267092869e" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_GroupProcedureTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_NoFeeChangeNotesTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="20c5ec05-193f-bdee-7922-76b743bce2f6">
+      <Execution id="67048895-3ec7-446e-8516-40e6cb88c890" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_NoFeeChangeNotesTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_FeeChangeNoteWithMultipleNotesLogTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="3fe532d4-7331-5aed-822c-a3f09431b128">
+      <Execution id="8bfdb21d-cf2a-4df7-ba83-b20bcb3cac18" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_FeeChangeNoteWithMultipleNotesLogTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_NonExistentApptIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="424101e1-5bdb-89b5-8025-6bc75a2e34ea">
+      <Execution id="9a75ebfe-bb13-4dc2-a854-adf1b1d52a5a" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_NonExistentApptIDTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_BadFormatApptIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="1545c7d4-7b9d-b357-4411-2767ef3c8610">
+      <Execution id="cf157931-394c-4122-9862-69fb5c588c43" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_BadFormatApptIDTest" />
+    </UnitTest>
+    <UnitTest name="ProceduresByApptIDTest_BlankApptIDTest" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="a8e61086-5a36-c384-ccba-2733009b0650">
+      <Execution id="4e82a376-c54a-4c5a-ba86-3720addac775" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.ProceduresByApptIDTest" name="ProceduresByApptIDTest_BlankApptIDTest" />
+    </UnitTest>
+    <UnitTest name="US33330_01_RetrieveNotesByAppointmentIdTest_Positive_NoApptNotes" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="a7bf53f6-39e5-092c-3c0d-bad9d58123e7">
+      <Execution id="97881329-c9de-42e1-9c8d-831a0e7a23a5" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.RetrieveNotesByAppointmentIdTest" name="US33330_01_RetrieveNotesByAppointmentIdTest_Positive_NoApptNotes" />
+    </UnitTest>
+    <UnitTest name="US33330_02_RetrieveNotesByAppointmentIdTest_Positive_MultipleApptNotes" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="45e0d4df-74e5-1794-4336-4b2babe1f715">
+      <Execution id="680ee286-0cd8-4b6c-ba8b-198ad92b4cf8" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.RetrieveNotesByAppointmentIdTest" name="US33330_02_RetrieveNotesByAppointmentIdTest_Positive_MultipleApptNotes" />
+    </UnitTest>
+    <UnitTest name="US33330_03_RetrieveNotesByAppointmentIdTest_Negative_NonExistentApptId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="21cad8dc-8daf-1d66-9d82-c03cab4d1df8">
+      <Execution id="4608bdb9-7941-4764-a528-11c822a7999c" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.RetrieveNotesByAppointmentIdTest" name="US33330_03_RetrieveNotesByAppointmentIdTest_Negative_NonExistentApptId" />
+    </UnitTest>
+    <UnitTest name="US33330_04_RetrieveNotesByAppointmentIdTest_Negative_BadFormatApptId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="cfbfaf8a-3ae8-6a13-d04b-f844aec139bc">
+      <Execution id="f766ddf9-f920-40d7-a505-21cde170b079" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.RetrieveNotesByAppointmentIdTest" name="US33330_04_RetrieveNotesByAppointmentIdTest_Negative_BadFormatApptId" />
+    </UnitTest>
+    <UnitTest name="US33330_05_RetrieveNotesByAppointmentIdTest_Negative_BlankApptId" storage="d:\gitspace\phoenix\applications\ccenter-html\nextgen\sourcecode\onlinedpms\csd.onlinedpms.webapi.tests\bin\debug\csd.onlinedpms.webapi.tests.dll" id="4ac3141a-bf86-f2c4-87c4-24daeeb05f82">
+      <Execution id="b3542025-0a12-4751-ba11-c15d444ef542" />
+      <TestMethod codeBase="D:\GitSpace\phoenix\applications\ccenter-html\NextGen\SourceCode\OnlineDPMS\CSD.OnlineDPMS.WebApi.Tests\bin\Debug\CSD.onlineDPMS.webapi.tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="CSD.OnlineDPMS.WebApi.Tests.Tests.RetrieveNotesByAppointmentIdTest" name="US33330_05_RetrieveNotesByAppointmentIdTest_Negative_BlankApptId" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8d45dbd3-81f0-e76f-d0ef-0e98cef7f984" executionId="f7f778fa-a605-4777-bfcf-23758f284d6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4ac765e-1921-4eb8-042e-83b0b3167687" executionId="b7111fdb-0b8a-46b1-a8ad-c5954e2d37fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c45b88a-3d61-9048-f5ae-b4555390c621" executionId="7ce8f0bb-24aa-4632-80f9-61f965a98bf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adb709ee-dddf-d856-c54e-10c2b1737462" executionId="456e0f81-0bd6-4265-be7c-8b6a230bfef0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e8e7044-b48c-877c-6e6a-9f24254b9f1a" executionId="e93bc107-2621-4833-8f0d-2170032f3ed3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e6f6210-4916-eb1b-7030-f6f10c0e387d" executionId="c5c5cbeb-087e-4eb0-9c8e-79bf1f3d5838" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbefdda1-b19f-f3a3-03e6-c580484703d6" executionId="d3f58467-70f3-4c02-941f-4cf55e7a3edf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b8849d6-ac3f-3395-518d-50f7c9d656af" executionId="455e80c7-f8a8-48eb-9760-6b70a9abbef8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1254912d-01fc-b139-9ec4-6e2af006223c" executionId="126176c5-6c8b-43f0-9c0f-ff763b652ae4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de9132aa-f691-bf44-bc60-9819da337f9d" executionId="b1a26e04-d359-41be-89c6-899d77cac406" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0876dd7d-f7c8-a1aa-a1f1-64865a71c1e4" executionId="0e6682aa-d9ad-40da-9699-e3ff60c12196" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad2ad6e8-3420-e70f-53ab-5fff1d2f1ecd" executionId="cb5db0b5-663c-4536-a105-a6ab3261f3ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac8d0098-b081-bc59-27b2-d1750545a1a5" executionId="b3fff1f5-7998-4d3d-a1aa-6017f53fde91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f537f9ad-6209-e569-e180-def8617ed54f" executionId="f12864b8-71ac-4a44-b0d8-a50c80728092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e829463e-1ab1-7fe5-a1f6-56b8dd6bb8b6" executionId="691a84e7-533f-46c3-90fb-b01b0da8a5fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c054ba2-4888-4dcc-fc4f-d681d4a94c1a" executionId="657d8c3f-9a2a-4cd9-a036-8fe77295e731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6923d89-2dae-273f-5ec9-88c9c3e5f221" executionId="e529d7a2-b3ec-4ee7-b498-20eae31c6676" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44131544-0e27-dc01-6e0f-2200b0103c83" executionId="5406736c-8c78-4a38-b779-911ebbd6e850" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fbaabf0-56c1-8501-6cfc-80fb18983f0f" executionId="479c28ff-1ef9-48b5-b2cb-9e815748338b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94761bef-fad9-d7b0-88fa-42330ffd9ac3" executionId="9daf9cf2-890b-4f62-ac6e-12ccad3e03b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8dd8fb8e-2efc-db2c-3e65-b8079af9d132" executionId="46ca17ee-cd3c-4209-914f-1c063049523e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d94caec-eb9e-7dc7-9928-fccec8e70b6a" executionId="ec528859-0b8a-4534-b56d-1f4453723b19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23862ebb-2d34-5be5-ca81-1ef354ea553b" executionId="a5d06df1-0801-493f-8f5c-b968509a3985" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e6f7591-593f-7035-b0e4-40153e04faf6" executionId="5649d13e-87e7-4d37-918c-30ea4c4770cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92440d00-c650-c1bc-fb3b-bfd29a366599" executionId="d42d1203-8774-4694-a059-f75fc021dfb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9bf7a82-d54e-3d31-02b7-624fe79223fb" executionId="517a2d9d-b8db-4426-a6b4-06b4904569ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7dca5cb-39f3-be40-0c6b-f5daae59ae26" executionId="fce2aa96-0cfc-4a7a-9dab-9e45dfceb841" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bfd6824-c48f-a82e-76f2-d8e80a131172" executionId="271ac851-1ed9-4e6d-b64a-a37dc5f81c3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c1efbf4-8de1-e90e-beda-6dcbe23adaf4" executionId="02e92a3b-6542-4544-8318-cb7834741f70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="707c3423-e8ac-4a95-8be0-a84942c99709" executionId="1832208d-f6b5-4622-98e8-38daa1cff6d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45e78744-ad1d-ea74-beef-1c46c84f2bbc" executionId="1ec595d0-a4e5-43c7-8bb6-27acfcf1e9be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f3f8e5c-9e03-db6a-34ee-c70da2fb19ef" executionId="d1da8a12-49bb-4937-8fd6-3609b839e53c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="872a24b4-6605-bb65-4e33-bcceee6553f2" executionId="aa8ca173-b93b-4bf7-8587-86e7804ccbcf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38d455d3-8cce-4dd0-28d7-f0f986ecd6a1" executionId="708b66f9-49a8-44ca-ac1b-e4952875ce58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d945478-c5d2-2f25-e4a9-c439bbfaebbb" executionId="07f8816b-8bd9-41b5-bae7-65cbaec11d53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04f7a88f-5894-edee-c736-86cf557a48d3" executionId="8df6bfd8-f28b-4c39-a1e5-f30cd3d6fc91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc015700-b626-b53e-ed65-3eb823aadd79" executionId="5d6c3d11-006c-47e4-bd4e-a2fae1233e7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="293ae917-7f62-ec0c-aa81-0a8588338dd3" executionId="74e11f9e-5912-4729-8656-fb89267c1bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e27f0e3-c20b-fd13-8aa4-14369fa56fbd" executionId="d04278f5-22c5-4220-bede-43f224521671" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46041b44-657a-6956-df8e-d7e506359bab" executionId="e0e83951-d4d2-4ee5-bb65-e03482a2e5fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ec1b1fd-b937-6eef-5652-4c60fc02378d" executionId="20cd1f5b-6b71-44a9-bf1f-de86cfd20be4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b55f5cc3-959b-dd3d-eb11-3a48375bc9c5" executionId="193f9e12-1659-4872-861f-338524a65244" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="804ca4e2-5f6c-e0af-6407-7691f6e2ce82" executionId="08b5c5e2-e3f2-476c-aa68-63a8eff8d0f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="338fce2b-71b1-f9bc-9733-919c37433fc9" executionId="26b83454-9275-422c-b4df-ed6f41444d8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="987196cf-e420-b284-67d7-2860078dacdb" executionId="11480364-f522-4931-bae5-df63afc8517a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="361ed9bf-d8e7-eb4d-562f-397c03ba3596" executionId="824aa0c3-346b-4766-b7e2-eeda243b55ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6772d379-1254-fb53-3229-4a8e582d4542" executionId="5c649011-f8a2-4508-ba56-841eb9a2121e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34a1571c-97ba-6dd4-df7a-de2fb9edbde6" executionId="31a9331c-ca5f-4f6d-9432-ceae76ba3dde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="488abe46-6ecb-c9aa-eb9a-d1e0e57ae149" executionId="f32be0a5-e7c4-4575-b787-8c8da5efeabd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da08ba39-d01e-c20b-c342-4dc114562b69" executionId="57946aba-efaf-4714-a490-3eb8674c8922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b03cbf1-ef6e-f7ab-c8d8-73b3bbe941e4" executionId="e86e0638-648d-42d1-9476-ce30bd3f0601" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bd7adb8-aafb-3e22-fc56-4a3b83a5feb0" executionId="0583fe88-5598-414a-89b2-9619ef86bfed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25782c8f-085f-3e94-3345-29fd83aa20a8" executionId="b8c92847-f6f4-4ec7-bf82-707ef340cd48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4c6d7f0-9ba8-572c-fb60-06ba3761e817" executionId="12b236b1-eb91-431a-a755-3588798678d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3314ec9c-72e7-6da7-1a09-1b5bbe85a6ac" executionId="492ba9d4-0321-49d2-86ca-7c5e60fb9a6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8239410f-ea1f-abb2-190c-fbf8bac8b3e8" executionId="553ec901-51a6-4a27-b408-f31a128c5ff6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38fd6c04-28b9-6ccc-ec94-527f594da22e" executionId="649ab3d1-b21a-4508-b42b-745f11fef2a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9a77cd5-3bf2-ffd8-6b55-1fe9cd15fa82" executionId="1deb1919-0926-435b-af91-dba1d74aa74a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84ea08a1-edc3-db73-9858-5d1f8941d09b" executionId="88c48b08-05bf-4859-98bf-05ad6512bdfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d47c326d-4f3d-0e4d-f746-24392cf11f97" executionId="40edff08-0024-43af-bba6-41b4e38c01bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd2d90ad-8c26-f00c-abc6-8b2447260769" executionId="73e79732-543c-400e-8913-a017f4221564" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3630d141-54f3-dfdb-592d-acd71b2ad6be" executionId="c805bf11-c997-416a-bda8-dc0142ea5cae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b44f5766-8780-fa54-bdcf-8b901e40ce45" executionId="e64abe40-ee72-491a-bc3a-2fd67ccd9959" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="281ca1da-007f-4547-dd94-650f2b1a2f28" executionId="a5bfd5c2-8185-4c4d-b994-e176ef98537f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cacd0231-11cd-8337-519a-7545e7891cee" executionId="2327a923-f563-4daf-89cf-9313e627965b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7900cdd-b411-f50e-4fc0-d6a55a3d89f9" executionId="7e3bf483-6c5e-4bd6-8f74-4f6fedd26a55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96b8ff42-e25e-b4fb-efaf-6e41e3ae7790" executionId="31cdcb44-dea6-479d-8e4d-b7822d795449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78e126ba-f849-df66-478e-3c511604f08a" executionId="06694840-da03-421b-98ce-fbd32c0b0199" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c56a50f7-88aa-90ea-e052-0a91b4d2025b" executionId="db0e7f55-6dd7-44b4-a1ea-ca4f2e7a5ffc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73030d84-89e5-8868-99ea-889c78312847" executionId="13fbc486-e471-489d-b145-0761ebd7d2d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="947d06a8-e6d9-c8e9-5821-1cf36b737679" executionId="8fcb6542-b418-45f6-94c6-ee9519c14c3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2f13d27-eda4-5384-8a81-ae82eb931df5" executionId="1c0e4be5-b9db-43c0-bd51-edfab420af9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5db62c5f-8bba-ecf2-0592-d1f0f49371b3" executionId="c9249152-e0ad-4258-8bbb-2f754655aea5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dff621a-e64e-9dfd-307d-6aff24b6c974" executionId="39b50d71-9c3e-46cc-8061-5e6dd3e950da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f2b6763-c0f2-3412-f8ac-48d0201481b7" executionId="26f32a0e-cb1d-4c4b-a09e-8499a73b3892" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb370eb8-8dc9-2663-5cb7-30bb05bb9cc1" executionId="4d799f8b-189c-4900-b72e-de843f29b612" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="725c9c31-7e28-6a96-29b4-bcbffd29a626" executionId="227f7aa4-5857-41a6-89b5-7628fa655021" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff61890e-9b78-f48e-6aac-e3afd468c20b" executionId="c772f86a-b378-44a9-aec4-e739235d038a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f95b072-808e-d585-49d5-6d84cb8ab1d5" executionId="f358687f-efdd-4e5f-b4d9-2f44bc066e58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f155fa6-efa2-43aa-4403-a1e8a542a4d5" executionId="0e4ce88d-9e76-48b8-8fb7-131689246842" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="539006b5-551b-d3f8-63db-a8545b894621" executionId="c902c81c-d31d-455b-8286-4a49285a7af5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e029eb13-490b-45de-f824-dfb147c6022b" executionId="5c0ceebd-67f9-490b-95a1-f110c555d995" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e991f67-f148-3b3e-484b-c392507f1f78" executionId="63855176-4426-498a-90d6-9c63e41f76c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6aa112f5-170f-508c-fb08-34afcccbac8f" executionId="5081e0ce-f47c-4f07-b784-b08359188b14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29e47600-9bdd-4499-8664-351572197b5f" executionId="8e89990a-8bd4-4c86-98f0-df04c48db90d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d67a280-dd6f-a28c-092b-37c0a86fac66" executionId="ed60b0c6-1d52-4a4f-b80a-18e8617fd8e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cf61dcf-1154-07b8-4cc0-36c98c46f274" executionId="a9076183-6433-40e7-8c8e-9b3d84186f38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6d59a57-3cb0-6793-1f0b-5d1cdbf321a2" executionId="e3e2f574-ce1c-4c11-b2a4-6f52a642c1c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4abd14dc-e289-90f6-6c69-da0513d070d1" executionId="4fe91174-be74-4c96-a1d8-245a527e0e4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b985c01-e7b8-09ae-de48-e166e3464028" executionId="d7f822ff-c00f-47a0-be02-e8835b97ba04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53333c11-27be-5076-00cb-9d9a4238c7f5" executionId="0157d2b7-4a61-4431-a2c6-fd6767a9b7cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3af62c3-bbb5-67b0-5d78-ebdbbf245f6a" executionId="d0fc2369-5465-4f56-a777-ab12f9a76156" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0372d2d7-26bf-edce-c440-ae1e01be2153" executionId="cc7f079c-928d-484d-8c2d-bbaeb8e5e311" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aef3aea8-e50c-81c4-3280-3c8f204da3e0" executionId="ac052a12-36f7-49a0-891a-56cd94da15a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07561277-66b9-c2f5-bcf0-9db804065709" executionId="e0ff91e1-ca21-46b8-8953-ae5e83cd26f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df0f9f5e-3637-e8a4-a972-75309d559f7e" executionId="672b264e-e202-4981-b2a9-8f691df75c39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edda5e46-e861-ba69-66b9-6e98e6e4cb6f" executionId="82987dfe-97ad-441e-b36c-8101ef02beb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddecd16d-2473-14a9-ee54-9df5e44a620d" executionId="c085bf7e-695e-47c3-8dd0-6b4d64a97c16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45c9bb83-9324-df23-ad56-222c4d97d826" executionId="58aec167-8e2b-4686-970f-4eb6f2cbbda2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7448bfd6-0bb5-cf7f-dc7a-3334b1b062fa" executionId="370ea5f2-5f6c-414e-85df-e5ebe1644fe1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9135af81-5d46-000a-d929-391c9d8d7e11" executionId="a0a38d1a-1506-47b4-ad80-7d4e42566ec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="deec353d-e127-24f1-77f7-4aeab8cc13a5" executionId="da0c6d8f-56b4-4f64-b3e6-2cc429bc9f4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c915cbab-3be5-6014-b298-75188a710d67" executionId="b478f142-b741-4435-9105-156eaa45b532" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddb1d6be-1906-a64f-4231-5bcf0919e087" executionId="0d8099da-8ddb-41c0-a06b-24267092869e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20c5ec05-193f-bdee-7922-76b743bce2f6" executionId="67048895-3ec7-446e-8516-40e6cb88c890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fe532d4-7331-5aed-822c-a3f09431b128" executionId="8bfdb21d-cf2a-4df7-ba83-b20bcb3cac18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="424101e1-5bdb-89b5-8025-6bc75a2e34ea" executionId="9a75ebfe-bb13-4dc2-a854-adf1b1d52a5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1545c7d4-7b9d-b357-4411-2767ef3c8610" executionId="cf157931-394c-4122-9862-69fb5c588c43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8e61086-5a36-c384-ccba-2733009b0650" executionId="4e82a376-c54a-4c5a-ba86-3720addac775" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7bf53f6-39e5-092c-3c0d-bad9d58123e7" executionId="97881329-c9de-42e1-9c8d-831a0e7a23a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45e0d4df-74e5-1794-4336-4b2babe1f715" executionId="680ee286-0cd8-4b6c-ba8b-198ad92b4cf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21cad8dc-8daf-1d66-9d82-c03cab4d1df8" executionId="4608bdb9-7941-4764-a528-11c822a7999c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfbfaf8a-3ae8-6a13-d04b-f844aec139bc" executionId="f766ddf9-f920-40d7-a505-21cde170b079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ac3141a-bf86-f2c4-87c4-24daeeb05f82" executionId="b3542025-0a12-4751-ba11-c15d444ef542" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="114" executed="114" passed="112" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

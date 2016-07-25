@@ -12,31 +12,26 @@ namespace QCtest
 
         static void Main(string[] args)
         {
-            QCConfig conf = new QCConfig();
-  
-            HA();
-            //using (QCManager qc = new QCManager(conf))
-            //{
-            //    //var list=qc.GetAllTestFromFolder(@"Root\yfann_test");
+            QCConfig conf = ConfigManager.GetQCConfig();
 
-            //    //foreach(var a in list)
-            //    //{
-            //    //    qc.RunTest(a,"N/A");
-            //    //}
+            var trxpath = @"source\yfann.trx";
 
-            //    qc.UpdateTestResultToQC();
 
-            //    //var test=qc.CreateOrGetTestSet("test03");
-            //    //qc.AddTestCase(test,"16130");
-            //}
+            var list = new TRXParser(trxpath).Parse();
 
+            using (QCManager qc = new QCManager(conf))
+            {
+                foreach(var node in list)
+                {
+                    qc.UpdateTestResultToQC(node.Id,node.Result);
+                }
+            }
+
+
+            Console.WriteLine("Finished...");
             Console.ReadLine();
         }
-        [TRXExtension("asdf")]
-        static void HA()
-        {
 
-        }
 
     }
 }

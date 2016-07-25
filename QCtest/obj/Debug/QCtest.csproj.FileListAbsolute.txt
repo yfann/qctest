@@ -4,6 +4,7 @@ D:\MyProjects\QCtest\QCtest\bin\Debug\QCtest.pdb
 D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.exe
 D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.pdb
 D:\MyProjects\QCtest\QCtest\bin\Debug\Interop.TDAPIOLELib.dll
-D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.csprojResolveAssemblyReference.cache
 D:\MyProjects\QCtest\QCtest\obj\Debug\Interop.TDAPIOLELib.dll
 D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.csproj.ResolveComReference.cache
+D:\MyProjects\QCtest\QCtest\bin\Debug\source\yfann.trx
+D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.csprojResolveAssemblyReference.cache

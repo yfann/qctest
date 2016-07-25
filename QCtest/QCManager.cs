@@ -18,6 +18,7 @@ namespace QCtest
         private TDConnection _conn;
         private TestSetTreeManager _setTree;
         private TestSetFolder _setFolder;
+        private TestSet _currentTestSet;
         public TestSetTreeManager SetTree
         {
             get
@@ -38,6 +39,18 @@ namespace QCtest
                     _setFolder = SetTree.NodeByPath[_config.RootPath] as TestSetFolder;
                 }
                 return _setFolder;
+            }
+        }
+
+        public TestSet CurrentTestSet
+        {
+            get
+            {
+                if(_currentTestSet==null)
+                {
+                    _currentTestSet= CreateOrGetTestSet(GenerateTestSetName());
+                }
+                return _currentTestSet;
             }
         }
         public QCManager(QCConfig config)
@@ -160,12 +173,33 @@ namespace QCtest
         public void AddAndRunTest(TestSet ts,string caseid,string result)
         {
             var test = AddTestCase(ts,caseid);
-            RunTest(test,result);
+            if(test!=null)
+            {
+                RunTest(test, result);
+            }
         }
-        public void UpdateTestResultToQC()
+        public void UpdateTestResultToQC(string caseid,string result)
         {
-            var testSet = CreateOrGetTestSet("test");
-            AddAndRunTest(testSet,"16125", PASSED);
+            string outCome = FAILED;
+            switch (result)
+            {
+                case "Passed":
+                    outCome = PASSED;
+                    break;
+                case "Failed":
+                    outCome = FAILED;
+                    break;
+                default:
+                    outCome = FAILED;
+                    break;
+                
+            }
+
+            AddAndRunTest(CurrentTestSet, caseid, outCome);
+        }
+        public string GenerateTestSetName()
+        {
+            return "Autotest_" + DateTime.Now.ToShortDateString();
         }
         public TDConnection GetConnection()
         {
