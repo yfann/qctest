@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TDAPIOLELib;
 
-namespace QCtest
+namespace AutoTest
 {
     public class QCManager:IDisposable
     {
@@ -36,7 +36,7 @@ namespace QCtest
             {
                 if(_setFolder==null)
                 {
-                    _setFolder = SetTree.NodeByPath[_config.RootPath] as TestSetFolder;
+                    _setFolder = BuildFolderPath(_config.RootPath);
                 }
                 return _setFolder;
             }
@@ -58,11 +58,12 @@ namespace QCtest
             _config = config;
             ConnectToQC();
         }
-        private bool FolderIsExist(string name)
+
+        private bool FolderIsExist(TestSetFolder folder,string name)
         {
             try
             {
-                SysTreeNode node=SetFolder.FindChildNode(name) as SysTreeNode;
+                SysTreeNode node= folder.FindChildNode(name) as SysTreeNode;
                 return node == null ? false : true;
             }
             catch
@@ -70,22 +71,67 @@ namespace QCtest
                 return false;
             }
         }
-        public void CreateFolder(string name)
+        public void CreateFolder(TestSetFolder folder,string name)
         {
             try
             {
-                if(!FolderIsExist(name))
-                {
-                    SysTreeNode node = SetFolder.AddNode(name) as SysTreeNode;
-                    node.Post();
-                }
-
+                SysTreeNode node = folder.AddNode(name) as SysTreeNode;
+                node.Post();
             }
             catch(Exception e)
             {
 
             }
         }
+        private TestSetFolder GetFolderByPath(string path)
+        {
+            TestSetFolder folder = null;
+            try
+            {
+                folder = SetTree.NodeByPath[path] as TestSetFolder;
+            }
+            catch(Exception e)
+            {
+
+            }
+            return folder;
+        }
+
+        public TestSetFolder BuildFolderPath(string path)
+        {
+            var setfolder = GetFolderByPath(path);
+
+            if(setfolder == null)
+            {
+                var paths = path.Split('\\');
+
+                var fullpath = "Root";
+
+                setfolder = SetTree.Root as TestSetFolder;
+
+
+                foreach(var str in paths)
+                {
+                    if (str.ToLower() == "root")
+                    {
+                        continue;
+                    }
+
+                    if (!FolderIsExist(setfolder, str))
+                    {
+                        SysTreeNode node = setfolder.AddNode(str) as SysTreeNode;
+                        node.Post();
+                    }
+
+                    fullpath += "\\" + str;
+                    setfolder = GetFolderByPath(fullpath);
+                }
+
+            }
+
+            return setfolder;
+        }
+
         public TestSet CreateOrGetTestSet(string name)
         {
             var tsList = SetFolder.FindTestSets(name);

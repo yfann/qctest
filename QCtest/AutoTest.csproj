@@ -57,6 +57,9 @@
     <None Include="source\yfann.trx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="source\yfann01.trx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="TDAPIOLELib">

@@ -1,0 +1,8 @@
+D:\MyProjects\QCtest\QCtest\bin\Debug\source\yfann.trx
+D:\MyProjects\QCtest\QCtest\bin\Debug\source\yfann01.trx
+D:\MyProjects\QCtest\QCtest\bin\Debug\QCtest.exe.config
+D:\MyProjects\QCtest\QCtest\bin\Debug\QCtest.exe
+D:\MyProjects\QCtest\QCtest\obj\Debug\Interop.TDAPIOLELib.dll
+D:\MyProjects\QCtest\QCtest\obj\Debug\AutoTest.csproj.ResolveComReference.cache
+D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.exe
+D:\MyProjects\QCtest\QCtest\obj\Debug\QCtest.pdb

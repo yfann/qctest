@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Text.RegularExpressions;
-namespace QCtest
+namespace AutoTest
 {
     public class TRXParser
     {
@@ -20,21 +20,29 @@ namespace QCtest
         public List<TrxObj> Parse()
         {
             List<TrxObj> list = new List<TrxObj>();
-            var root = doc.DocumentElement;
-            var nsmgr = new XmlNamespaceManager(doc.NameTable);
-            nsmgr.AddNamespace("u", "http://microsoft.com/schemas/VisualStudio/TeamTest/2010");
-            var nodeList = root.SelectNodes("//u:UnitTestResult", nsmgr);
-
-            foreach (XmlNode node in nodeList)
+            try
             {
-                string outcome=node.Attributes["outcome"].Value;
-                var caseid = node.InnerText;
-                if (!string.IsNullOrEmpty(caseid) &&Regex.IsMatch(caseid, CaseIdPattern))
-                {
-                    var trx = new TrxObj(caseid, outcome);
+                var root = doc.DocumentElement;
+                var nsmgr = new XmlNamespaceManager(doc.NameTable);
+                nsmgr.AddNamespace("u", "http://microsoft.com/schemas/VisualStudio/TeamTest/2010");
+                var nodeList = root.SelectNodes("//u:UnitTestResult", nsmgr);
 
-                    list.Add(trx);
+                foreach (XmlNode node in nodeList)
+                {
+                    string outcome = node.Attributes["outcome"].Value;
+                    var stdout = node.SelectSingleNode(".//u:StdOut", nsmgr);
+
+                    if (stdout != null && !string.IsNullOrEmpty(stdout.InnerText) && Regex.IsMatch(stdout.InnerText, CaseIdPattern))
+                    {
+                        var trx = new TrxObj(stdout.InnerText, outcome);
+
+                        list.Add(trx);
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+
             }
 
             return list;

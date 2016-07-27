@@ -5,27 +5,30 @@ using System.Text;
 using System.Threading.Tasks;
 using TDAPIOLELib;
 
-namespace QCtest
+namespace AutoTest
 {
     class Program
     {
 
         static void Main(string[] args)
         {
+
+
             QCConfig conf = ConfigManager.GetQCConfig();
 
-            var trxpath = @"source\yfann.trx";
-
-
-            var list = new TRXParser(trxpath).Parse();
-
-            using (QCManager qc = new QCManager(conf))
+            if (args.Length > 0)
             {
-                foreach(var node in list)
+                var list = new TRXParser(args[0]).Parse();
+
+                using (QCManager qc = new QCManager(conf))
                 {
-                    qc.UpdateTestResultToQC(node.Id,node.Result);
+                    foreach (var node in list)
+                    {
+                        qc.UpdateTestResultToQC(node.Id, node.Result);
+                    }
                 }
             }
+
 
 
             Console.WriteLine("Finished...");
